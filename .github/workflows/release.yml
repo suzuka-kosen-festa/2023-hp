@@ -1,0 +1,32 @@
+name: Release workflow
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  release-please:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    outputs:
+      release_created: ${{ steps.release.outputs.release_created }}
+    steps:
+      - uses: actions/checkout@v3.5.3
+      - id: release
+        uses: google-github-actions/release-please-action@v3.7.9
+        with:
+          release-type: node
+          include-v-in-tag: false
+  deploy:
+    needs: release-please
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3.5.3
+      - name: Setup Node.js
+        uses: re-taro/actions/setup-node@v1.0.0
+        with:
+          node-version-file: .tool-versions
+# TODO: Add deploy flow with wrangler

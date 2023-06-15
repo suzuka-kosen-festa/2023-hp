@@ -1,0 +1,70 @@
+{
+  "name": "2023-hp",
+  "version": "0.1.0",
+  "description": "第58回鈴鹿高専祭 公式HP",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/suzuka-kosen-festa/2023-hp"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "suzuka-kosen-festa"
+  },
+  "scripts": {
+    "dev": "vite",
+    "prod": "npm run build && serve ./dist/client/",
+    "build": "vite build --mode=production",
+    "analyze": "vite build --mode=analyze",
+    "lint": "run-s -c lint:*",
+    "lint:eslint": "eslint . --ext .cjs,.ts,.tsx",
+    "lint:prettier": "prettier --check './**/*.{cjs,tsx,tsx,json}'",
+    "lint:stylelint": "stylelint src/**/*.tsx",
+    "lint:tsc": "tsc --noEmit",
+    "format": "run-s -c format:*",
+    "format:eslint": "pnpm run lint:eslint --fix",
+    "format:prettier": "prettier --write './**/*.{cjs,ts,tsx,json}'",
+    "format:stylelint": "pnpm run lint:stylelint --fix",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "dependencies": {
+    "@linaria/core": "4.2.10",
+    "@linaria/react": "4.3.8",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-streaming": "0.3.14"
+  },
+  "devDependencies": {
+    "@linaria/stylelint-config-standard-linaria": "4.1.5",
+    "@linaria/vite": "4.2.11",
+    "@re-taro/eslint-config": "1.9.9",
+    "@storybook/addon-essentials": "7.0.21",
+    "@storybook/addon-interactions": "7.0.21",
+    "@storybook/addon-links": "7.0.21",
+    "@storybook/blocks": "7.0.21",
+    "@storybook/react": "7.0.21",
+    "@storybook/react-vite": "7.0.21",
+    "@storybook/testing-library": "0.0.14-next.2",
+    "@types/node": "18.11.9",
+    "@types/react": "18.0.8",
+    "@types/react-dom": "18.0.3",
+    "@vitejs/plugin-react": "3.0.0",
+    "cross-env": "7.0.3",
+    "eslint": "8.38.0",
+    "eslint-plugin-storybook": "0.6.12",
+    "npm-run-all": "4.1.5",
+    "prettier": "2.8.8",
+    "prop-types": "15.8.1",
+    "rollup-plugin-visualizer": "5.9.2",
+    "serve": "14.2.0",
+    "storybook": "7.0.21",
+    "stylelint": "15.7.0",
+    "terser": "5.18.0",
+    "typescript": "4.9.4",
+    "vite": "4.0.3",
+    "vite-plugin-compression": "0.5.1",
+    "vite-plugin-ssr": "0.4.131"
+  },
+  "type": "module",
+  "packageManager": "pnpm@8.6.2"
+}
