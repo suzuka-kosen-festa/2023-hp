@@ -1,0 +1,44 @@
+name: Main CI
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3.5.3
+      - name: Setup Node.js
+        uses: re-taro/actions/setup-node@v1.0.0
+        with:
+          node-version-file: .tool-versions
+      - name: Run production build
+        run: pnpm build
+        shell: sh
+  #      - name: Run storybook build
+  #        run: pnpm build-storybook
+  #        shell: sh
+  format-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3.5.3
+      - name: Setup Node.js
+        uses: re-taro/actions/setup-node@v1.0.0
+        with:
+          node-version-file: .tool-versions
+      - name: Run format check
+        run: pnpm lint
+        shell: sh
+#  test:
+#    runs-on: ubuntu-latest
+#    steps:
+#      - uses: actions/checkout@v3.5.3
+#      - name: Setup Node.js
+#        uses: re-taro/actions/setup-node@v1.0.0
+#        with:
+#          node-version-file: .tool-versions
+#      - name: Run test
+#        run: pnpm test
+#        shell: sh
