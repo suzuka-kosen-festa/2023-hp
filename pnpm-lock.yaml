@@ -62,8 +62,8 @@ devDependencies:
     specifier: 18.2.5
     version: 18.2.5
   '@vitejs/plugin-react':
-    specifier: 3.1.0
-    version: 3.1.0(vite@4.0.5)
+    specifier: 4.0.0
+    version: 4.0.0(vite@4.0.5)
   cross-env:
     specifier: 7.0.3
     version: 7.0.3
@@ -4719,6 +4719,21 @@ packages:
       '@babel/plugin-transform-react-jsx-self': 7.22.5(@babel/core@7.22.5)
       '@babel/plugin-transform-react-jsx-source': 7.22.5(@babel/core@7.22.5)
       magic-string: 0.27.0
+      react-refresh: 0.14.0
+      vite: 4.0.5(@types/node@18.16.18)(terser@5.18.0)
+    transitivePeerDependencies:
+      - supports-color
+    dev: true
+
+  /@vitejs/plugin-react@4.0.0(vite@4.0.5):
+    resolution: {integrity: sha512-HX0XzMjL3hhOYm+0s95pb0Z7F8O81G7joUHgfDd/9J/ZZf5k4xX6QAMFkKsHFxaHlf6X7GD7+XuaZ66ULiJuhQ==}
+    engines: {node: ^14.18.0 || >=16.0.0}
+    peerDependencies:
+      vite: ^4.2.0
+    dependencies:
+      '@babel/core': 7.22.5
+      '@babel/plugin-transform-react-jsx-self': 7.22.5(@babel/core@7.22.5)
+      '@babel/plugin-transform-react-jsx-source': 7.22.5(@babel/core@7.22.5)
       react-refresh: 0.14.0
       vite: 4.0.5(@types/node@18.16.18)(terser@5.18.0)
     transitivePeerDependencies:
