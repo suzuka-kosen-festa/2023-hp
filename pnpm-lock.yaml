@@ -53,8 +53,8 @@ devDependencies:
     specifier: 0.1.0
     version: 0.1.0
   '@types/node':
-    specifier: 18.11.19
-    version: 18.11.19
+    specifier: 18.16.18
+    version: 18.16.18
   '@types/react':
     specifier: 18.0.38
     version: 18.0.38
@@ -102,7 +102,7 @@ devDependencies:
     version: 4.9.5
   vite:
     specifier: 4.0.5
-    version: 4.0.5(@types/node@18.11.19)(terser@5.18.0)
+    version: 4.0.5(@types/node@18.16.18)(terser@5.18.0)
   vite-plugin-compression:
     specifier: 0.5.1
     version: 0.5.1(vite@4.0.5)
@@ -3071,7 +3071,7 @@ packages:
     dependencies:
       '@types/istanbul-lib-coverage': 2.0.4
       '@types/istanbul-reports': 3.0.1
-      '@types/node': 18.11.19
+      '@types/node': 18.16.18
       '@types/yargs': 16.0.5
       chalk: 4.1.2
     dev: true
@@ -3083,7 +3083,7 @@ packages:
       '@jest/schemas': 29.4.3
       '@types/istanbul-lib-coverage': 2.0.4
       '@types/istanbul-reports': 3.0.1
-      '@types/node': 18.11.19
+      '@types/node': 18.16.18
       '@types/yargs': 17.0.24
       chalk: 4.1.2
     dev: true
@@ -3102,7 +3102,7 @@ packages:
       magic-string: 0.27.0
       react-docgen-typescript: 2.2.2(typescript@4.9.5)
       typescript: 4.9.5
-      vite: 4.0.5(@types/node@18.11.19)(terser@5.18.0)
+      vite: 4.0.5(@types/node@18.16.18)(terser@5.18.0)
     dev: true
 
   /@jridgewell/gen-mapping@0.3.3:
@@ -3283,7 +3283,7 @@ packages:
       '@linaria/logger': 4.0.0
       '@linaria/utils': 4.3.4
       '@rollup/pluginutils': 4.2.1
-      vite: 4.0.5(@types/node@18.11.19)(terser@5.18.0)
+      vite: 4.0.5(@types/node@18.16.18)(terser@5.18.0)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -3801,7 +3801,7 @@ packages:
       remark-slug: 6.1.0
       rollup: 3.25.1
       typescript: 4.9.5
-      vite: 4.0.5(@types/node@18.11.19)(terser@5.18.0)
+      vite: 4.0.5(@types/node@18.16.18)(terser@5.18.0)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -4180,7 +4180,7 @@ packages:
       react: 18.2.0
       react-docgen: 6.0.0-alpha.3
       react-dom: 18.2.0(react@18.2.0)
-      vite: 4.0.5(@types/node@18.11.19)(terser@5.18.0)
+      vite: 4.0.5(@types/node@18.16.18)(terser@5.18.0)
     transitivePeerDependencies:
       - '@preact/preset-vite'
       - supports-color
@@ -4351,13 +4351,13 @@ packages:
     resolution: {integrity: sha512-ALYone6pm6QmwZoAgeyNksccT9Q4AWZQ6PvfwR37GT6r6FWUPguq6sUmNGSMV2Wr761oQoBxwGGa6DR5o1DC9g==}
     dependencies:
       '@types/connect': 3.4.35
-      '@types/node': 18.11.19
+      '@types/node': 18.16.18
     dev: true
 
   /@types/connect@3.4.35:
     resolution: {integrity: sha512-cdeYyv4KWoEgpBISTxWvqYsVy444DOqehiF3fM3ne10AmJ62RSyNkUnxMJXHQWRQQX2eR94m5y1IZyDwBjV9FQ==}
     dependencies:
-      '@types/node': 18.11.19
+      '@types/node': 18.16.18
     dev: true
 
   /@types/detect-port@1.3.3:
@@ -4383,7 +4383,7 @@ packages:
   /@types/express-serve-static-core@4.17.35:
     resolution: {integrity: sha512-wALWQwrgiB2AWTT91CB62b6Yt0sNHpznUXeZEcnPU3DRdlDIz74x8Qg1UUYKSVFi+va5vKOLYRBI1bRKiLLKIg==}
     dependencies:
-      '@types/node': 18.11.19
+      '@types/node': 18.16.18
       '@types/qs': 6.9.7
       '@types/range-parser': 1.2.4
       '@types/send': 0.17.1
@@ -4406,20 +4406,20 @@ packages:
     resolution: {integrity: sha512-ZUxbzKl0IfJILTS6t7ip5fQQM/J3TJYubDm3nMbgubNNYS62eXeUpoLUC8/7fJNiFYHTrGPQn7hspDUzIHX3UA==}
     dependencies:
       '@types/minimatch': 5.1.2
-      '@types/node': 18.11.19
+      '@types/node': 18.16.18
     dev: true
 
   /@types/glob@8.1.0:
     resolution: {integrity: sha512-IO+MJPVhoqz+28h1qLAcBEH2+xHMK6MTyHJc7MTnnYb6wsoLR29POVGJ7LycmVXIqyy/4/2ShP5sUwTXuOwb/w==}
     dependencies:
       '@types/minimatch': 5.1.2
-      '@types/node': 18.11.19
+      '@types/node': 18.16.18
     dev: true
 
   /@types/graceful-fs@4.1.6:
     resolution: {integrity: sha512-Sig0SNORX9fdW+bQuTEovKj3uHcUL6LQKbCrrqb1X7J6/ReAbhCXRAhc+SMejhLELFj2QcyuxmUooZ4bt5ReSw==}
     dependencies:
-      '@types/node': 18.11.19
+      '@types/node': 18.16.18
     dev: true
 
   /@types/istanbul-lib-coverage@2.0.4:
@@ -4483,7 +4483,7 @@ packages:
   /@types/node-fetch@2.6.4:
     resolution: {integrity: sha512-1ZX9fcN4Rvkvgv4E6PAY5WXUFWFcRWxZa3EW83UjycOB9ljJCedb2CupIP4RZMEwF/M3eTcCihbBRgwtGbg5Rg==}
     dependencies:
-      '@types/node': 18.11.19
+      '@types/node': 18.16.18
       form-data: 3.0.1
     dev: true
 
@@ -4491,8 +4491,8 @@ packages:
     resolution: {integrity: sha512-8egDX8dE50XyXWH6C6PRCNkTP106DuUrvdrednFouDSmCi7IOvrqr0frznfZaHifHH/3aq/7a7v9N4wdXMqhBQ==}
     dev: true
 
-  /@types/node@18.11.19:
-    resolution: {integrity: sha512-YUgMWAQBWLObABqrvx8qKO1enAvBUdjZOAWQ5grBAkp5LQv45jBvYKZ3oFS9iKRCQyFjqw6iuEa1vmFqtxYLZw==}
+  /@types/node@18.16.18:
+    resolution: {integrity: sha512-/aNaQZD0+iSBAGnvvN2Cx92HqE5sZCPZtx2TsK+4nvV23fFe09jVDvpArXr2j9DnYlzuU9WuoykDDc6wqvpNcw==}
     dev: true
 
   /@types/normalize-package-data@2.4.1:
@@ -4549,14 +4549,14 @@ packages:
     resolution: {integrity: sha512-Cwo8LE/0rnvX7kIIa3QHCkcuF21c05Ayb0ZfxPiv0W8VRiZiNW/WuRupHKpqqGVGf7SUA44QSOUKaEd9lIrd/Q==}
     dependencies:
       '@types/mime': 1.3.2
-      '@types/node': 18.11.19
+      '@types/node': 18.16.18
     dev: true
 
   /@types/serve-static@1.15.1:
     resolution: {integrity: sha512-NUo5XNiAdULrJENtJXZZ3fHtfMolzZwczzBbnAeBbqBwG+LaG6YaJtuwzwGSQZ2wsCrxjEhNNjAkKigy3n8teQ==}
     dependencies:
       '@types/mime': 3.0.1
-      '@types/node': 18.11.19
+      '@types/node': 18.16.18
     dev: true
 
   /@types/unist@2.0.6:
@@ -4720,7 +4720,7 @@ packages:
       '@babel/plugin-transform-react-jsx-source': 7.22.5(@babel/core@7.22.5)
       magic-string: 0.27.0
       react-refresh: 0.14.0
-      vite: 4.0.5(@types/node@18.11.19)(terser@5.18.0)
+      vite: 4.0.5(@types/node@18.16.18)(terser@5.18.0)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -7875,7 +7875,7 @@ packages:
     dependencies:
       '@jest/types': 29.5.0
       '@types/graceful-fs': 4.1.6
-      '@types/node': 18.11.19
+      '@types/node': 18.16.18
       anymatch: 3.1.3
       fb-watchman: 2.0.2
       graceful-fs: 4.2.11
@@ -7893,7 +7893,7 @@ packages:
     engines: {node: ^10.13.0 || ^12.13.0 || ^14.15.0 || >=15.0.0}
     dependencies:
       '@jest/types': 27.5.1
-      '@types/node': 18.11.19
+      '@types/node': 18.16.18
     dev: true
 
   /jest-regex-util@29.4.3:
@@ -7906,7 +7906,7 @@ packages:
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
     dependencies:
       '@jest/types': 29.5.0
-      '@types/node': 18.11.19
+      '@types/node': 18.16.18
       chalk: 4.1.2
       ci-info: 3.8.0
       graceful-fs: 4.2.11
@@ -7917,7 +7917,7 @@ packages:
     resolution: {integrity: sha512-NcrQnevGoSp4b5kg+akIpthoAFHxPBcb5P6mYPY0fUNT+sSvmtu6jlkEle3anczUKIKEbMxFimk9oTP/tpIPgA==}
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
     dependencies:
-      '@types/node': 18.11.19
+      '@types/node': 18.16.18
       jest-util: 29.5.0
       merge-stream: 2.0.0
       supports-color: 8.1.1
@@ -10781,7 +10781,7 @@ packages:
       chalk: 4.1.2
       debug: 4.3.4
       fs-extra: 10.1.0
-      vite: 4.0.5(@types/node@18.11.19)(terser@5.18.0)
+      vite: 4.0.5(@types/node@18.16.18)(terser@5.18.0)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -10808,10 +10808,10 @@ packages:
       fast-glob: 3.2.12
       react-streaming: 0.3.14(react-dom@18.2.0)(react@18.2.0)
       sirv: 2.0.2
-      vite: 4.0.5(@types/node@18.11.19)(terser@5.18.0)
+      vite: 4.0.5(@types/node@18.16.18)(terser@5.18.0)
     dev: true
 
-  /vite@4.0.5(@types/node@18.11.19)(terser@5.18.0):
+  /vite@4.0.5(@types/node@18.16.18)(terser@5.18.0):
     resolution: {integrity: sha512-7m87RC+caiAxG+8j3jObveRLqaWA/neAdCat6JAZwMkSWqFHOvg8MYe5fAQxVBRAuKAQ1S6XDh3CBQuLNbY33w==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
@@ -10836,7 +10836,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 18.11.19
+      '@types/node': 18.16.18
       esbuild: 0.16.17
       postcss: 8.4.24
       resolve: 1.22.2
