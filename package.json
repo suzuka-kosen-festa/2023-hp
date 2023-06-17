@@ -57,7 +57,7 @@
     "prop-types": "15.8.1",
     "rollup-plugin-visualizer": "5.9.2",
     "serve": "14.2.0",
-    "storybook": "7.0.21",
+    "storybook": "7.0.22",
     "stylelint": "15.7.0",
     "terser": "5.18.0",
     "typescript": "5.1.3",
