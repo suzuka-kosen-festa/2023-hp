@@ -1,5 +1,6 @@
 import react from "@vitejs/plugin-react";
 import ssr from "vite-plugin-ssr/plugin";
+/// <reference types="vitest" />
 import { defineConfig } from "vite";
 import visualizer from "rollup-plugin-visualizer";
 import compress from "vite-plugin-compression";
@@ -23,5 +24,10 @@ export default defineConfig(async ({ mode }) => {
         }),
       compress({ algorithm: "brotliCompress", ext: ".br" }),
     ],
+    test: {
+      globals: true,
+      environment: "happy-dom",
+      setupFiles: "./test/setup.ts",
+    },
   };
 });
