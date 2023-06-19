@@ -29,8 +29,8 @@ devDependencies:
     specifier: 4.2.11
     version: 4.2.11(vite@4.3.9)
   '@re-taro/eslint-config':
-    specifier: 1.9.10
-    version: 1.9.10(eslint@8.43.0)(svelte@3.59.1)(typescript@5.1.3)
+    specifier: 1.9.11
+    version: 1.9.11(eslint@8.43.0)(svelte@3.59.1)(typescript@5.1.3)
   '@storybook/addon-essentials':
     specifier: 7.0.22
     version: 7.0.22(react-dom@18.2.0)(react@18.2.0)
@@ -3151,12 +3151,12 @@ packages:
     resolution: {integrity: sha512-a5Sab1C4/icpTZVzZc5Ghpz88yQtGOyNqYXcZgOssB2uuAr+wF/MvN6bgtW32q7HHrvBki+BsZ0OuNv6EV3K9g==}
     dev: true
 
-  /@re-taro/eslint-config@1.9.10(eslint@8.43.0)(svelte@3.59.1)(typescript@5.1.3):
-    resolution: {integrity: sha512-umc09gPQLDogoQYfZUm6wyo4LcV9nZ5yRW7LU/iRhzAED0ofBuGXLIGFiVAFASnC+plohnArfKgoxQB7l/caag==}
+  /@re-taro/eslint-config@1.9.11(eslint@8.43.0)(svelte@3.59.1)(typescript@5.1.3):
+    resolution: {integrity: sha512-H3uviFYEaY//cQhKxVmTyTXvWHflnzmGNJRqmXJT6/dEFSCKr+L14of8BSI2R0x99Uj1R2F/OpWciEQjUDJ5+A==}
     peerDependencies:
       eslint: ^8.0.0
     dependencies:
-      '@re-taro/eslint-plugin': 1.9.10(eslint@8.43.0)(svelte@3.59.1)(typescript@5.1.3)
+      '@re-taro/eslint-plugin': 1.9.11(eslint@8.43.0)(svelte@3.59.1)(typescript@5.1.3)
       eslint: 8.43.0
       eslint-config-prettier: 8.8.0(eslint@8.43.0)
     transitivePeerDependencies:
@@ -3167,8 +3167,8 @@ packages:
       - typescript
     dev: true
 
-  /@re-taro/eslint-plugin@1.9.10(eslint@8.43.0)(svelte@3.59.1)(typescript@5.1.3):
-    resolution: {integrity: sha512-4hHymUAbQCpYb62S63xCPs+iIowsE8UQS8QSNrBhKcwrQCYwy9PCAt1vP+PU9HQ3TytT8sS8XI6a+MepIhKoUg==}
+  /@re-taro/eslint-plugin@1.9.11(eslint@8.43.0)(svelte@3.59.1)(typescript@5.1.3):
+    resolution: {integrity: sha512-KeBvLMw4XjyPaoYqYbQXhAHB9taTrHW1EXpELJZUzZdaa8T5JT/RkZqK1/rcSRje37izUiGjHLYJr9Smv/ZNbw==}
     peerDependencies:
       eslint: ^8.0.0
     dependencies:
@@ -3191,7 +3191,7 @@ packages:
       eslint-plugin-redos: 4.5.0-beta.4(eslint@8.43.0)
       eslint-plugin-svelte3: 4.0.0(eslint@8.43.0)(svelte@3.59.1)
       eslint-plugin-unicorn: 47.0.0(eslint@8.43.0)
-      eslint-plugin-vue: 9.14.1(eslint@8.43.0)
+      eslint-plugin-vue: 9.15.0(eslint@8.43.0)
       eslint-plugin-yml: 1.8.0(eslint@8.43.0)
       jsonc-eslint-parser: 2.3.0
       yaml-eslint-parser: 1.2.2
@@ -6399,8 +6399,8 @@ packages:
       strip-indent: 3.0.0
     dev: true
 
-  /eslint-plugin-vue@9.14.1(eslint@8.43.0):
-    resolution: {integrity: sha512-LQazDB1qkNEKejLe/b5a9VfEbtbczcOaui5lQ4Qw0tbRBbQYREyxxOV5BQgNDTqGPs9pxqiEpbMi9ywuIaF7vw==}
+  /eslint-plugin-vue@9.15.0(eslint@8.43.0):
+    resolution: {integrity: sha512-XYzpK6e2REli100+6iCeBA69v6Sm0D/yK2FZP+fCeNt0yH/m82qZQq+ztseyV0JsKdhFysuSEzeE1yCmSC92BA==}
     engines: {node: ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: ^6.2.0 || ^7.0.0 || ^8.0.0
