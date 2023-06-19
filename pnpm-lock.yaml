@@ -95,14 +95,14 @@ devDependencies:
     specifier: 15.8.0
     version: 15.8.0
   terser:
-    specifier: 5.18.0
-    version: 5.18.0
+    specifier: 5.18.1
+    version: 5.18.1
   typescript:
     specifier: 5.1.3
     version: 5.1.3
   vite:
     specifier: 4.3.9
-    version: 4.3.9(@types/node@18.16.18)(terser@5.18.0)
+    version: 4.3.9(@types/node@18.16.18)(terser@5.18.1)
   vite-plugin-compression:
     specifier: 0.5.1
     version: 0.5.1(vite@4.3.9)
@@ -2904,7 +2904,7 @@ packages:
       magic-string: 0.27.0
       react-docgen-typescript: 2.2.2(typescript@5.1.3)
       typescript: 5.1.3
-      vite: 4.3.9(@types/node@18.16.18)(terser@5.18.0)
+      vite: 4.3.9(@types/node@18.16.18)(terser@5.18.1)
     dev: true
 
   /@jridgewell/gen-mapping@0.3.3:
@@ -3085,7 +3085,7 @@ packages:
       '@linaria/logger': 4.0.0
       '@linaria/utils': 4.3.4
       '@rollup/pluginutils': 4.2.1
-      vite: 4.3.9(@types/node@18.16.18)(terser@5.18.0)
+      vite: 4.3.9(@types/node@18.16.18)(terser@5.18.1)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -3609,7 +3609,7 @@ packages:
       remark-slug: 6.1.0
       rollup: 3.25.1
       typescript: 5.1.3
-      vite: 4.3.9(@types/node@18.16.18)(terser@5.18.0)
+      vite: 4.3.9(@types/node@18.16.18)(terser@5.18.1)
     transitivePeerDependencies:
       - encoding
       - supports-color
@@ -4046,7 +4046,7 @@ packages:
       react: 18.2.0
       react-docgen: 6.0.0-alpha.3
       react-dom: 18.2.0(react@18.2.0)
-      vite: 4.3.9(@types/node@18.16.18)(terser@5.18.0)
+      vite: 4.3.9(@types/node@18.16.18)(terser@5.18.1)
     transitivePeerDependencies:
       - '@preact/preset-vite'
       - encoding
@@ -4597,7 +4597,7 @@ packages:
       '@babel/plugin-transform-react-jsx-source': 7.22.5(@babel/core@7.22.5)
       magic-string: 0.27.0
       react-refresh: 0.14.0
-      vite: 4.3.9(@types/node@18.16.18)(terser@5.18.0)
+      vite: 4.3.9(@types/node@18.16.18)(terser@5.18.1)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -4612,7 +4612,7 @@ packages:
       '@babel/plugin-transform-react-jsx-self': 7.22.5(@babel/core@7.22.5)
       '@babel/plugin-transform-react-jsx-source': 7.22.5(@babel/core@7.22.5)
       react-refresh: 0.14.0
-      vite: 4.3.9(@types/node@18.16.18)(terser@5.18.0)
+      vite: 4.3.9(@types/node@18.16.18)(terser@5.18.1)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -10249,8 +10249,8 @@ packages:
       unique-string: 2.0.0
     dev: true
 
-  /terser@5.18.0:
-    resolution: {integrity: sha512-pdL757Ig5a0I+owA42l6tIuEycRuM7FPY4n62h44mRLRfnOxJkkOHd6i89dOpwZlpF6JXBwaAHF6yWzFrt+QyA==}
+  /terser@5.18.1:
+    resolution: {integrity: sha512-j1n0Ao919h/Ai5r43VAnfV/7azUYW43GPxK7qSATzrsERfW7+y2QW9Cp9ufnRF5CQUWbnLSo7UJokSWCqg4tsQ==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
@@ -10617,7 +10617,7 @@ packages:
       chalk: 4.1.2
       debug: 4.3.4
       fs-extra: 10.1.0
-      vite: 4.3.9(@types/node@18.16.18)(terser@5.18.0)
+      vite: 4.3.9(@types/node@18.16.18)(terser@5.18.1)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -10644,10 +10644,10 @@ packages:
       fast-glob: 3.2.12
       react-streaming: 0.3.14(react-dom@18.2.0)(react@18.2.0)
       sirv: 2.0.2
-      vite: 4.3.9(@types/node@18.16.18)(terser@5.18.0)
+      vite: 4.3.9(@types/node@18.16.18)(terser@5.18.1)
     dev: true
 
-  /vite@4.3.9(@types/node@18.16.18)(terser@5.18.0):
+  /vite@4.3.9(@types/node@18.16.18)(terser@5.18.1):
     resolution: {integrity: sha512-qsTNZjO9NoJNW7KnOrgYwczm0WctJ8m/yqYAMAK9Lxt4SoySUfS5S8ia9K7JHpa3KEeMfyF8LoJ3c5NeBJy6pg==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
@@ -10676,7 +10676,7 @@ packages:
       esbuild: 0.17.19
       postcss: 8.4.24
       rollup: 3.25.1
-      terser: 5.18.0
+      terser: 5.18.1
     optionalDependencies:
       fsevents: 2.3.2
     dev: true
