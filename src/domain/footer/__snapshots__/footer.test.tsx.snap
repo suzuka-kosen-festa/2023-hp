@@ -1,0 +1,16 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`[domain/footer] footer.tsx > should render the Footer component 1`] = `
+<div>
+  <footer
+    class="styles_footer__1rq13180"
+  >
+    <p
+      class="styles_p__1rq13181"
+    >
+      © 
+      第58回鈴鹿高専祭 実行委員会
+    </p>
+  </footer>
+</div>
+`;

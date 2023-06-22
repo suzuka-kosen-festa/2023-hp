@@ -1,16 +1,17 @@
 import { createRoot, hydrateRoot } from "react-dom/client";
-import { PageShell } from "./PageShell";
-import { getPageTitle } from "./getPageTitle";
+import { getPageTitle } from "~/shared/utils";
+import { Layout } from "~/feature";
 import type { Root } from "react-dom/client";
-import type { PageContextClient } from "./types";
+import type { PageContextClient } from "~/shared/store";
 
 let root: Root;
+
 export const render = async (pageContext: PageContextClient) => {
   const { Page, pageProps } = pageContext;
   const page = (
-    <PageShell pageContext={pageContext}>
+    <Layout pageContext={pageContext}>
       <Page {...pageProps} />
-    </PageShell>
+    </Layout>
   );
   const container = document.getElementById("page-view")!;
   if (pageContext.isHydration) {
