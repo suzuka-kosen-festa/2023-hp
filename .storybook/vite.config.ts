@@ -9,6 +9,11 @@ export default defineConfig(async () => {
     build: {
       minify: "terser",
     },
-    plugins: [react(), vanillaExtractPlugin(), compress({ algorithm: "brotliCompress", ext: ".br" }), tsconfig()],
+    plugins: [
+      react(),
+      vanillaExtractPlugin(),
+      compress({ algorithm: "brotliCompress", ext: ".br" }),
+      tsconfig(),
+    ],
   };
 });

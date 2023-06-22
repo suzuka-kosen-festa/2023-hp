@@ -1,4 +1,4 @@
-import { readFileSync, createWriteStream } from "node:fs";
+import { createWriteStream, readFileSync } from "node:fs";
 import { resolve } from "node:path";
 import subsetFont from "subset-font";
 
