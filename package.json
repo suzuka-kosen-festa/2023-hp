@@ -12,10 +12,9 @@
   },
   "scripts": {
     "dev": "vite",
-    "prod": "npm run build && serve ./dist/client/",
+    "prod": "pnpm run build && serve ./dist/client/",
     "build": "vite build --mode=production",
     "analyze": "vite build --mode=analyze",
-    "icon": "pnpm dlx @svgr/cli -d src/shared/icons public/icons",
     "lint": "run-s -c lint:*",
     "lint:eslint": "eslint . --ext .cjs,.ts,.mts,.tsx",
     "lint:prettier": "prettier --check './**/*.{cjs,ts,mts,tsx,tsx,json}'",
@@ -26,6 +25,7 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "test:unit": "vitest run",
+    "icon": "pnpm dlx @svgr/cli -d src/shared/icons public/icons",
     "subset": "tsx ./scripts/subset.mts"
   },
   "dependencies": {
