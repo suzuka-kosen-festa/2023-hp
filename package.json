@@ -24,6 +24,7 @@
     "format:prettier": "prettier --write './**/*.{cjs,ts,mts,ts,tsx,json}'",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
+    "test": "run-s -c test:*",
     "test:unit": "vitest run",
     "icon": "pnpm dlx @svgr/cli -d src/shared/icons public/icons",
     "subset": "tsx ./scripts/subset.mts"
