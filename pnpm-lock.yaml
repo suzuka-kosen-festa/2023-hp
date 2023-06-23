@@ -107,8 +107,8 @@ devDependencies:
     specifier: 0.5.1
     version: 0.5.1(vite@4.3.9)
   vite-plugin-ssr:
-    specifier: 0.4.131
-    version: 0.4.131(react-streaming@0.3.14)(vite@4.3.9)
+    specifier: 0.4.132
+    version: 0.4.132(react-streaming@0.3.14)(vite@4.3.9)
 
 packages:
 
@@ -10628,8 +10628,8 @@ packages:
       - supports-color
     dev: true
 
-  /vite-plugin-ssr@0.4.131(react-streaming@0.3.14)(vite@4.3.9):
-    resolution: {integrity: sha512-M8ay5UuQUEMBHhg87BVhXGjPV+/xO3PZWzZ63S8J8rX4Xv+sQbnDswGYm/TJ+Ga/9NTgrFDAKqUfEb3pEpd+Aw==}
+  /vite-plugin-ssr@0.4.132(react-streaming@0.3.14)(vite@4.3.9):
+    resolution: {integrity: sha512-+77qu4YWBLwc3sgh418q2cLmqBSZMaDCe0YNkptoy6JxZiF9KKNrS848Emg42Xoapte2S99i1OiqSAXw8bzvyQ==}
     engines: {node: '>=12.19.0'}
     hasBin: true
     peerDependencies:
@@ -10650,6 +10650,7 @@ packages:
       fast-glob: 3.2.12
       react-streaming: 0.3.14(react-dom@18.2.0)(react@18.2.0)
       sirv: 2.0.2
+      source-map-support: 0.5.21
       vite: 4.3.9(@types/node@18.16.18)(terser@5.18.1)
     dev: true
 
