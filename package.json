@@ -28,6 +28,7 @@
     "build-storybook": "storybook build",
     "test": "run-s -c test:*",
     "test:unit": "vitest run",
+    "vitest:ui": "vitest --ui",
     "icon": "pnpm dlx @svgr/cli -d src/shared/icons public/icons",
     "subset": "tsx ./scripts/subset.mts"
   },
@@ -60,6 +61,7 @@
     "@vanilla-extract/recipes": "0.4.0",
     "@vanilla-extract/vite-plugin": "3.8.2",
     "@vitejs/plugin-react": "4.0.1",
+    "@vitest/ui": "0.32.2",
     "cross-env": "7.0.3",
     "eslint": "8.43.0",
     "eslint-plugin-storybook": "0.6.12",
