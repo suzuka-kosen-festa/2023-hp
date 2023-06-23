@@ -6681,6 +6681,7 @@ packages:
 
   /eslint-config-prettier@8.8.0(eslint@8.43.0):
     resolution: {integrity: sha512-wLbQiFre3tdGgpDv67NQKnJuTlcUVYHas3k+DZCc2U2BadthoEY4B7hLPvAxaqdyOGCzuLfii2fqGph10va7oA==}
+    hasBin: true
     peerDependencies:
       eslint: '>=7.0.0'
     dependencies:
@@ -8397,6 +8398,7 @@ packages:
 
   /jscodeshift@0.14.0(@babel/preset-env@7.21.5):
     resolution: {integrity: sha512-7eCC1knD7bLUPuSCwXsMZUH51O8jIcoVyKtI6P0XM0IVzlGjckPy3FIwQlorzbN0Sg79oK+RlohN32Mqf/lrYA==}
+    hasBin: true
     peerDependencies:
       '@babel/preset-env': ^7.1.6
     dependencies:
@@ -8426,6 +8428,7 @@ packages:
 
   /jscodeshift@0.14.0(@babel/preset-env@7.22.5):
     resolution: {integrity: sha512-7eCC1knD7bLUPuSCwXsMZUH51O8jIcoVyKtI6P0XM0IVzlGjckPy3FIwQlorzbN0Sg79oK+RlohN32Mqf/lrYA==}
+    hasBin: true
     peerDependencies:
       '@babel/preset-env': ^7.1.6
     dependencies:
@@ -10119,6 +10122,7 @@ packages:
   /rollup-plugin-visualizer@5.9.2:
     resolution: {integrity: sha512-waHktD5mlWrYFrhOLbti4YgQCn1uR24nYsNuXxg7LkPH8KdTXVWR9DNY1WU0QqokyMixVXJS4J04HNrVTMP01A==}
     engines: {node: '>=14'}
+    hasBin: true
     peerDependencies:
       rollup: 2.x || 3.x
     peerDependenciesMeta:
@@ -11053,6 +11057,7 @@ packages:
 
   /update-browserslist-db@1.0.11(browserslist@4.21.8):
     resolution: {integrity: sha512-dCwEFf0/oT85M1fHBg4F0jtLwJrutGoHSQXCh7u4o2t1drG+c0a9Flnqww6XUKSfQMPpJBRjU8d4RXB09qtvaA==}
+    hasBin: true
     peerDependencies:
       browserslist: '>= 4.21.0'
     dependencies:
@@ -11188,6 +11193,7 @@ packages:
   /vite-plugin-ssr@0.4.132(react-streaming@0.3.14)(vite@4.3.9):
     resolution: {integrity: sha512-+77qu4YWBLwc3sgh418q2cLmqBSZMaDCe0YNkptoy6JxZiF9KKNrS848Emg42Xoapte2S99i1OiqSAXw8bzvyQ==}
     engines: {node: '>=12.19.0'}
+    hasBin: true
     peerDependencies:
       react-streaming: '>=0.3.5'
       vite: '>=3.1.0'
@@ -11230,6 +11236,7 @@ packages:
   /vite@4.3.9(@types/node@18.16.18)(terser@5.18.1):
     resolution: {integrity: sha512-qsTNZjO9NoJNW7KnOrgYwczm0WctJ8m/yqYAMAK9Lxt4SoySUfS5S8ia9K7JHpa3KEeMfyF8LoJ3c5NeBJy6pg==}
     engines: {node: ^14.18.0 || >=16.0.0}
+    hasBin: true
     peerDependencies:
       '@types/node': '>= 14'
       less: '*'
@@ -11263,6 +11270,7 @@ packages:
   /vitest@0.32.2(happy-dom@9.20.3)(terser@5.18.1):
     resolution: {integrity: sha512-hU8GNNuQfwuQmqTLfiKcqEhZY72Zxb7nnN07koCUNmntNxbKQnVbeIS6sqUgR3eXSlbOpit8+/gr1KpqoMgWCQ==}
     engines: {node: '>=v14.18.0'}
+    hasBin: true
     peerDependencies:
       '@edge-runtime/vm': '*'
       '@vitest/browser': '*'
