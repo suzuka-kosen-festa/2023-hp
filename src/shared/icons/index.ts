@@ -1,3 +1,8 @@
+export { default as Cloud1 } from "./cloud-1";
+export { default as Cloud2 } from "./cloud-2";
+export { default as Cloud3 } from "./cloud-3";
+export { default as Cloud4 } from "./cloud-4";
+export { default as Cloud5 } from "./cloud-5";
 export { default as Defect } from "./defect";
 export { default as LeftBigCloud } from "./left-big-cloud";
 export { default as LeftCloud } from "./left-cloud";
