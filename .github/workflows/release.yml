@@ -16,7 +16,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3.5.3
       - id: release
-        uses: google-github-actions/release-please-action@v3.7.9
+        uses: google-github-actions/release-please-action@v3.7.10
         with:
           release-type: node
           include-v-in-tag: false
