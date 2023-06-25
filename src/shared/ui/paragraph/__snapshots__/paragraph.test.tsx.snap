@@ -1,0 +1,11 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`[shared/ui/paragraph] paragraph.tsx > should render the Paragraph component 1`] = `
+<div>
+  <p
+    class="styles_p__62gm1o0"
+  >
+    test test test
+  </p>
+</div>
+`;

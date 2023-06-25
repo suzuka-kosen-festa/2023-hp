@@ -1,16 +1,16 @@
 import { renderToStream } from "react-streaming/server";
 import { escapeInject } from "vite-plugin-ssr/server";
-import { PageShell } from "./PageShell";
-import { getPageTitle } from "./getPageTitle";
-import type { PageContextServer } from "./types";
+import { getPageTitle } from "~/shared/utils";
+import { Layout } from "~/feature";
+import type { PageContextServer } from "~/shared/store";
 
 export const render = async (pageContext: PageContextServer) => {
   const { Page, pageProps } = pageContext;
 
   const stream = await renderToStream(
-    <PageShell pageContext={pageContext}>
+    <Layout pageContext={pageContext}>
       <Page {...pageProps} />
-    </PageShell>,
+    </Layout>,
     { disable: true },
   );
 
@@ -19,6 +19,9 @@ export const render = async (pageContext: PageContextServer) => {
   const documentHtml = escapeInject`<!DOCTYPE html>
     <html>
       <head>
+        <meta charset="utf8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
         <title>${title}</title>
       </head>
       <body>

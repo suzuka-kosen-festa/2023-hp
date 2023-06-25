@@ -1,0 +1,61 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`[shared/ui/heading] heading.tsx > should render the h1 component 1`] = `
+<div>
+  <h1
+    class="styles_heading__7yy9f60 styles_heading_size_h1__7yy9f61"
+  >
+    h1
+  </h1>
+</div>
+`;
+
+exports[`[shared/ui/heading] heading.tsx > should render the h2 component 1`] = `
+<div>
+  <h2
+    class="styles_heading__7yy9f60 styles_heading_size_h2__7yy9f62"
+  >
+    h2
+  </h2>
+</div>
+`;
+
+exports[`[shared/ui/heading] heading.tsx > should render the h3 component 1`] = `
+<div>
+  <h3
+    class="styles_heading__7yy9f60 styles_heading_size_h3__7yy9f63"
+  >
+    h3
+  </h3>
+</div>
+`;
+
+exports[`[shared/ui/heading] heading.tsx > should render the h4 component 1`] = `
+<div>
+  <h4
+    class="styles_heading__7yy9f60 styles_heading_size_h4__7yy9f64"
+  >
+    h4
+  </h4>
+</div>
+`;
+
+exports[`[shared/ui/heading] heading.tsx > should render the h5 component 1`] = `
+<div>
+  <h5
+    class="styles_heading__7yy9f60 styles_heading_size_h5__7yy9f65"
+  >
+    h5
+  </h5>
+</div>
+`;
+
+exports[`[shared/ui/heading] heading.tsx > should render the h6 component 1`] = `
+<div>
+  <h6
+    class="styles_heading__7yy9f60 styles_heading_size_h6__7yy9f66"
+  >
+    h6
+  </h6>
+</div>
+`;

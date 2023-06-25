@@ -5,11 +5,15 @@
     "target": "ESNext",
     "moduleResolution": "node",
     "lib": ["DOM", "DOM.Iterable", "ESNext"],
-    "types": ["vite/client"],
+    "types": ["vite/client", "vitest/globals"],
     "jsx": "react-jsx",
     "skipLibCheck": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["src/*"]
+    }
   },
-  "include": ["**/*.ts", "**/*.tsx"],
+  "include": ["**/*.ts", "**/*.mts", "**/*.tsx"],
   "exclude": ["node_modules"]
 }
