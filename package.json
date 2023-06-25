@@ -29,7 +29,6 @@
     "test": "run-s -c test:*",
     "test:unit": "vitest run",
     "vitest:ui": "vitest --ui",
-    "icon": "pnpm dlx @svgr/cli -d src/shared/icons public/icons",
     "subset": "tsx ./scripts/subset.mts"
   },
   "dependencies": {
@@ -51,7 +50,6 @@
     "@storybook/react": "7.0.23",
     "@storybook/react-vite": "7.0.23",
     "@storybook/testing-library": "0.2.0",
-    "@svgr/cli": "8.0.1",
     "@testing-library/react": "14.0.0",
     "@types/node": "18.16.18",
     "@types/react": "18.2.14",

@@ -1,4 +1,4 @@
-import { Defect } from "~/shared/icons";
+import Defect from "~/assets/icons/defect.svg";
 import * as styles from "./styles.css";
 import type { FC, ReactElement, ReactNode } from "react";
 
@@ -10,7 +10,7 @@ type Props = {
 export const Layout: FC<Props> = ({ content, children }) => {
   return (
     <div className={styles.div}>
-      <Defect className={styles.defect} />
+      <img src={Defect} alt="defect" className={styles.defect} />
       <main className={styles.main}>{children}</main>
       {content}
     </div>
