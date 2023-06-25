@@ -26,3 +26,5 @@ export const render = async (pageContext: PageContextClient) => {
 };
 
 export const clientRouting = true;
+
+export const hydrationCanBeAborted = true;
