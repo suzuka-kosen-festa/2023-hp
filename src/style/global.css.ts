@@ -1,4 +1,8 @@
-import { createGlobalTheme, globalFontFace } from "@vanilla-extract/css";
+import {
+  createGlobalTheme,
+  globalFontFace,
+  globalStyle,
+} from "@vanilla-extract/css";
 import { vars } from "./theme.css";
 
 export const NewTogomin = "New Tegomin";
@@ -7,6 +11,10 @@ globalFontFace(NewTogomin, {
   src: 'url("/fonts/subset.woff2") format("woff2"), url("/fonts/subset.woff") format("woff")',
   fontDisplay: "swap",
   fontWeight: 400,
+});
+
+globalStyle("body", {
+  backgroundColor: vars.color.brand.deepPrimary,
 });
 
 createGlobalTheme(":root", vars, {

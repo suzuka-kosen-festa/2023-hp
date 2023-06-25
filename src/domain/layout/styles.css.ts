@@ -3,6 +3,10 @@ import { vars } from "~/style/theme.css";
 
 export const div = style({
   position: "relative",
+  width: "100%",
+  minHeight: "100vh",
+  display: "flex",
+  flexDirection: "column",
   backgroundImage:
     'linear-gradient(to right, rgb(166 113 51 / 10%), rgb(166 113 51 / 10%)), url("/back.jpg")',
   backgroundSize: "cover",
@@ -14,11 +18,12 @@ export const div = style({
 
 export const defect = style({
   position: "absolute",
-  top: "-2px",
-  left: "-2px",
+  top: "-3px",
+  left: "-3px",
   height: "10vw",
 });
 
 export const main = style({
   paddingTop: "10vw",
+  flex: "auto",
 });
