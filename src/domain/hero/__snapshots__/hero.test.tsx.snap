@@ -1,0 +1,102 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`[domain/hero] hero.tsx > should render the default Hero component 1`] = `
+<div>
+  <section
+    class="styles_section__q0lepz0"
+  >
+    <div
+      class="styles_left__q0lepz1"
+    >
+      <img
+        alt="cloud assets"
+        class=" styles_cloud_gridArea_1__q0lepz4"
+        src="/src/assets/icons/cloud-1.svg"
+      />
+    </div>
+    <div
+      class="styles_center__q0lepz2"
+    >
+      <img
+        alt="未視感"
+        class="styles_logo__q0lepz9"
+        src="/src/assets/icons/logo-static.svg"
+      />
+    </div>
+    <div
+      class="styles_right__q0lepz3"
+    >
+      <img
+        alt="cloud assets"
+        class=" styles_cloud_gridArea_2__q0lepz5"
+        src="/src/assets/icons/cloud-2.svg"
+      />
+      <img
+        alt="cloud assets"
+        class=" styles_cloud_gridArea_3__q0lepz6"
+        src="/src/assets/icons/cloud-3.svg"
+      />
+    </div>
+  </section>
+</div>
+`;
+
+exports[`[domain/hero] hero.tsx > should render the soon Hero component 1`] = `
+<div>
+  <section
+    class="styles_section__q0lepz0"
+  >
+    <div
+      class="styles_left__q0lepz1"
+    >
+      <img
+        alt="cloud assets"
+        class=" styles_cloud_gridArea_1__q0lepz4"
+        src="/src/assets/icons/cloud-1.svg"
+      />
+      <img
+        alt="cloud assets"
+        class=" styles_cloud_gridArea_4__q0lepz7"
+        src="/src/assets/icons/cloud-4.svg"
+      />
+    </div>
+    <div
+      class="styles_center__q0lepz2"
+    >
+      <img
+        alt="未視感"
+        class="styles_logo__q0lepz9"
+        src="/src/assets/icons/logo-static.svg"
+      />
+      <h1
+        class="styles_title__q0lepza"
+      >
+        視たことのない高専祭を。
+        <br />
+        新しい世界へご招待します。
+        <br />
+        Comming soon...
+      </h1>
+    </div>
+    <div
+      class="styles_right__q0lepz3"
+    >
+      <img
+        alt="cloud assets"
+        class=" styles_cloud_gridArea_2__q0lepz5"
+        src="/src/assets/icons/cloud-2.svg"
+      />
+      <img
+        alt="cloud assets"
+        class=" styles_cloud_gridArea_3__q0lepz6"
+        src="/src/assets/icons/cloud-3.svg"
+      />
+      <img
+        alt="cloud assets"
+        class=" styles_cloud_gridArea_5__q0lepz8"
+        src="/src/assets/icons/cloud-5.svg"
+      />
+    </div>
+  </section>
+</div>
+`;
