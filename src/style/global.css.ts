@@ -8,7 +8,7 @@ import { vars } from "./theme.css";
 export const NewTogomin = "New Tegomin";
 
 globalFontFace(NewTogomin, {
-  src: 'url("/fonts/subset.woff2") format("woff2"), url("/fonts/subset.woff") format("woff")',
+  src: 'url("/assets/fonts/subset.woff2") format("woff2"), url("/assets/fonts/subset.woff") format("woff")',
   fontDisplay: "swap",
   fontWeight: 400,
 });

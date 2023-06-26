@@ -3,10 +3,10 @@ import { resolve } from "node:path";
 import subsetFont from "subset-font";
 
 const woff = readFileSync(
-  resolve(process.cwd(), "./public/fonts/NewTegomin-Regular.woff"),
+  resolve(process.cwd(), "./public/assets/fonts/NewTegomin-Regular.woff"),
 );
 const woff2 = readFileSync(
-  resolve(process.cwd(), "./public/fonts/NewTegomin-Regular.woff2"),
+  resolve(process.cwd(), "./public/assets/fonts/NewTegomin-Regular.woff2"),
 );
 
 const SUBSET_DATA =
@@ -15,7 +15,7 @@ const SUBSET_DATA =
 subsetFont(woff, SUBSET_DATA, { targetFormat: "woff" })
   .then((buffer) => {
     createWriteStream(
-      resolve(process.cwd(), "./public/fonts/subset.woff"),
+      resolve(process.cwd(), "./public/assets/fonts/subset.woff"),
     ).write(buffer);
   })
   .catch((e) => console.error(e));
@@ -23,7 +23,7 @@ subsetFont(woff, SUBSET_DATA, { targetFormat: "woff" })
 subsetFont(woff2, SUBSET_DATA, { targetFormat: "woff2" })
   .then((buffer) => {
     createWriteStream(
-      resolve(process.cwd(), "./public/fonts/subset.woff2"),
+      resolve(process.cwd(), "./public/assets/fonts/subset.woff2"),
     ).write(buffer);
   })
   .catch((e) => console.error(e));
