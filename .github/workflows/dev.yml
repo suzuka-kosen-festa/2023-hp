@@ -1,27 +1,12 @@
-name: Release workflow
+name: Preview build
 
 on:
-  push:
+  pull_request:
     branches:
       - main
 
 jobs:
-  release-please:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-      pull-requests: write
-    outputs:
-      release_created: ${{ steps.release.outputs.release_created }}
-    steps:
-      - uses: actions/checkout@v3.5.3
-      - id: release
-        uses: google-github-actions/release-please-action@v3.7.10
-        with:
-          release-type: node
-          include-v-in-tag: false
-  deploy:
-    needs: release-please
+  preview:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3.5.3
@@ -35,7 +20,7 @@ jobs:
         with:
           step: start
           token: ${{ secrets.GITHUB_TOKEN }}
-          env: Production
+          env: Preview
       - name: Build
         run: pnpm build
         shell: sh
