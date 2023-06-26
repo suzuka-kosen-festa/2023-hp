@@ -14,13 +14,6 @@ jobs:
         uses: re-taro/actions/setup-node@v1.0.0
         with:
           node-version-file: .tool-versions
-      - name: start deployment
-        uses: bobheadxi/deployments@v1.4.0
-        id: deployment
-        with:
-          step: start
-          token: ${{ secrets.GITHUB_TOKEN }}
-          env: Preview
       - name: Build
         run: pnpm build
         shell: sh
@@ -34,13 +27,3 @@ jobs:
           directory: ./dist/client
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
           wranglerVersion: "3"
-      - name: Update deployment status
-        uses: bobheadxi/deployments@v1.4.0
-        if: always()
-        with:
-          step: finish
-          token: ${{ github.token }}
-          status: ${{ job.status }}
-          env: ${{ steps.deployment.outputs.env }}
-          env_url: ${{ steps.deploy.outputs.url }}
-          deployment_id: ${{ steps.deployment.outputs.deployment_id }}
