@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.3](https://github.com/suzuka-kosen-festa/2023-hp/compare/1.0.2...1.0.3) (2023-06-27)
+
+
+### Bug Fixes
+
+* fix f*cking typo ([87a745a](https://github.com/suzuka-kosen-festa/2023-hp/commit/87a745a4e01b9cc5555fe91da76c676a76044569))
+
 ## [1.0.2](https://github.com/suzuka-kosen-festa/2023-hp/compare/1.0.1...1.0.2) (2023-06-27)
 
 
