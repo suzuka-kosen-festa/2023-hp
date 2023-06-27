@@ -36,7 +36,7 @@ export const Hero: FC<Props> = ({ soon }) => {
             <br />
             新しい世界へご招待します。
             <br />
-            Comming soon...
+            Coming soon...
           </h1>
         )}
       </div>
