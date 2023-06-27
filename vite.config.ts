@@ -6,6 +6,7 @@ import visualizer from "rollup-plugin-visualizer";
 import compress from "vite-plugin-compression";
 import tsconfig from "vite-tsconfig-paths";
 import { vanillaExtractPlugin } from "@vanilla-extract/vite-plugin";
+import { VitePWA } from "vite-plugin-pwa";
 
 export default defineConfig(async ({ mode }) => {
   return {
@@ -16,6 +17,34 @@ export default defineConfig(async ({ mode }) => {
       react(),
       ssr({ prerender: true }),
       vanillaExtractPlugin(),
+      VitePWA({
+        registerType: "autoUpdate",
+        workbox: {
+          inlineWorkboxRuntime: true,
+        },
+        manifest: {
+          name: "第58回鈴鹿高専祭",
+          short_name: "第58回鈴鹿高専祭",
+          icons: [
+            {
+              src: "/android-chrome-192x192.png",
+              sizes: "192x192",
+              type: "image/png",
+            },
+            {
+              src: "/android-chrome-512x512.png",
+              sizes: "512x512",
+              type: "image/png",
+            },
+          ],
+          theme_color: "#ffffff",
+          background_color: "#ffffff",
+          start_url: "https://snct-fes.info",
+          display: "standalone",
+          description: "Re:ROAD、それぞれが色付けた3年ぶりの鈴鹿高専祭。",
+          lang: "ja",
+        },
+      }),
       mode === "analyze" &&
         visualizer({
           open: true,

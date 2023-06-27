@@ -22,7 +22,6 @@ export const render = async (pageContext: PageContextServer) => {
       <meta name="description" content="未視感、視たことのない高専祭を。" lang="ja" />
       <meta name="name" content="未視感 | 第58回鈴鹿高専祭" />
       <meta name="image" content="/seo/ogp.png" />
-      <link rel="icon" href="/seo/favicon.ico" />
       <meta property="og:title" content="未視感 | 第58回鈴鹿高専祭" />
       <meta property="og:description" content="未視感、視たことのない高専祭を。" />
       <meta property="og:type" content="webpage" />
@@ -36,8 +35,10 @@ export const render = async (pageContext: PageContextServer) => {
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:site" content="@KOSENFESTA" />
       <meta name="twitter:creator" content="@KOSENFESTA" />
+      <link rel="icon" type="image/svg+xml" href="/seo/favicon.svg" />
       <link rel="icon" type="image/png" sizes="32x32" href="/seo/favicon-32x32.png" />
       <link rel="icon" type="image/png" sizes="16x16" href="/seo/favicon-16x16.png" />
+      <link rel="icon" href="/seo/favicon.ico" />
       <link rel="mask-icon" href="/seo/safari-pinned-tab.svg" color="#000000" />
       <meta name="msapplication-TileColor" content="#000000" />
       <link rel="apple-touch-icon" href="/seo/apple-touch-icon.png" />
