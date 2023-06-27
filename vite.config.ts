@@ -41,7 +41,7 @@ export default defineConfig(async ({ mode }) => {
           background_color: "#ffffff",
           start_url: "https://snct-fes.info",
           display: "standalone",
-          description: "Re:ROAD、それぞれが色付けた3年ぶりの鈴鹿高専祭。",
+          description: "未視感、視たことのない高専祭を。",
           lang: "ja",
         },
       }),
