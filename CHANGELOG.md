@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/suzuka-kosen-festa/2023-hp/compare/1.0.3...1.1.0) (2023-06-27)
+
+
+### Features
+
+* add robots.txt ([b3ae4e9](https://github.com/suzuka-kosen-festa/2023-hp/commit/b3ae4e9d1ee7b88b0e4d8f51f46c6a85983e35d0))
+
 ## [1.0.3](https://github.com/suzuka-kosen-festa/2023-hp/compare/1.0.2...1.0.3) (2023-06-27)
 
 
