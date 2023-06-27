@@ -1,5 +1,4 @@
 import { createRoot, hydrateRoot } from "react-dom/client";
-import { getPageTitle } from "~/shared/utils";
 import { Layout } from "~/feature";
 import type { Root } from "react-dom/client";
 import type { PageContextClient } from "~/shared/store";
@@ -22,7 +21,6 @@ export const render = async (pageContext: PageContextClient) => {
     }
     root.render(page);
   }
-  document.title = getPageTitle(pageContext);
 };
 
 export const clientRouting = true;

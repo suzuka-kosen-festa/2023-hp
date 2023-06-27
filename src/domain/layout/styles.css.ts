@@ -8,7 +8,7 @@ export const div = style({
   display: "flex",
   flexDirection: "column",
   backgroundImage:
-    'linear-gradient(to right, rgb(166 113 51 / 10%), rgb(166 113 51 / 10%)), url("/back.jpg")',
+    'linear-gradient(to right, rgb(166 113 51 / 10%), rgb(166 113 51 / 10%)), url("/assets/back.jpg")',
   backgroundSize: "cover",
   backgroundPosition: "center",
   backgroundRepeat: "no-repeat",
