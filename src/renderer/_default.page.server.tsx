@@ -28,7 +28,7 @@ export const render = async (pageContext: PageContextServer) => {
       <meta property="og:url" content="https://snct-fes.info" />
       <meta property="og:image" content="/seo/ogp.png" />
       <meta property="og:locale" content="ja_JP" />
-      <meta property="og:site_name" content="Re:ROAD" />
+      <meta property="og:site_name" content="未視感" />
       <meta name="twitter:title" content="未視感 | 第58回鈴鹿高専祭" />
       <meta name="twitter:description" content="未視感、視たことのない高専祭を。" />
       <meta name="twitter:image" content="/seo/ogp.png" />
