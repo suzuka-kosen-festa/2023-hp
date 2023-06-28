@@ -41,7 +41,7 @@
     "@markuplint/jsx-parser": "3.8.0",
     "@markuplint/ml-config": "3.10.0",
     "@markuplint/react-spec": "3.9.0",
-    "@re-taro/eslint-config": "1.9.12",
+    "@re-taro/eslint-config": "1.9.13",
     "@storybook/addon-a11y": "7.0.24",
     "@storybook/addon-essentials": "7.0.24",
     "@storybook/addon-interactions": "7.0.24",
