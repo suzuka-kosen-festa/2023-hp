@@ -72,7 +72,7 @@
     "serve": "14.2.0",
     "storybook": "7.0.24",
     "subset-font": "2.1.0",
-    "terser": "5.18.1",
+    "terser": "5.18.2",
     "tsx": "3.12.7",
     "typescript": "5.1.5",
     "vite": "4.3.9",
