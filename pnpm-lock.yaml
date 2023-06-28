@@ -47,8 +47,8 @@ devDependencies:
     specifier: 7.0.24
     version: 7.0.24(react-dom@18.2.0)(react@18.2.0)
   '@storybook/react':
-    specifier: 7.0.23
-    version: 7.0.23(react-dom@18.2.0)(react@18.2.0)(typescript@5.1.5)
+    specifier: 7.0.24
+    version: 7.0.24(react-dom@18.2.0)(react@18.2.0)(typescript@5.1.5)
   '@storybook/react-vite':
     specifier: 7.0.23
     version: 7.0.23(react-dom@18.2.0)(react@18.2.0)(typescript@5.1.5)(vite@4.3.9)
@@ -4451,6 +4451,13 @@ packages:
       '@storybook/preview-api': 7.0.23
     dev: true
 
+  /@storybook/core-client@7.0.24:
+    resolution: {integrity: sha512-uToMHbi5EnOk+8Z941j0hrRE1h9u/QWqCmqS2FBIWrBOeREwy0AAib1/hqihzhO7OzekY5mtLTANiCpIpLHAHQ==}
+    dependencies:
+      '@storybook/client-logger': 7.0.24
+      '@storybook/preview-api': 7.0.24
+    dev: true
+
   /@storybook/core-common@7.0.23:
     resolution: {integrity: sha512-2W87Z9I0ObEMQkGVPMvgB3I5lWkqqkQDkfIbfoc717+DO3Lqgg/CGy5WL7+v2xVlzfoUnYIeXgkeAwDPDrDyMA==}
     dependencies:
@@ -4842,6 +4849,46 @@ packages:
       '@storybook/preview-api': 7.0.23
       '@storybook/react-dom-shim': 7.0.23(react-dom@18.2.0)(react@18.2.0)
       '@storybook/types': 7.0.23
+      '@types/escodegen': 0.0.6
+      '@types/estree': 0.0.51
+      '@types/node': 16.18.36
+      acorn: 7.4.1
+      acorn-jsx: 5.3.2(acorn@7.4.1)
+      acorn-walk: 7.2.0
+      escodegen: 2.0.0
+      html-tags: 3.3.1
+      lodash: 4.17.21
+      prop-types: 15.8.1
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
+      react-element-to-jsx-string: 15.0.0(react-dom@18.2.0)(react@18.2.0)
+      ts-dedent: 2.2.0
+      type-fest: 2.19.0
+      typescript: 5.1.5
+      util-deprecate: 1.0.2
+    transitivePeerDependencies:
+      - encoding
+      - supports-color
+    dev: true
+
+  /@storybook/react@7.0.24(react-dom@18.2.0)(react@18.2.0)(typescript@5.1.5):
+    resolution: {integrity: sha512-JAgSs8ANysBl3+cOAjFSVG3bA2V/wP6jyu7oK0jSATRQhHRjRS/tHFMA82j0j98G2sr3JXQUxNt55Qq3k2mUcg==}
+    engines: {node: '>=16.0.0'}
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0
+      react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
+      typescript: '*'
+    peerDependenciesMeta:
+      typescript:
+        optional: true
+    dependencies:
+      '@storybook/client-logger': 7.0.24
+      '@storybook/core-client': 7.0.24
+      '@storybook/docs-tools': 7.0.24
+      '@storybook/global': 5.0.0
+      '@storybook/preview-api': 7.0.24
+      '@storybook/react-dom-shim': 7.0.24(react-dom@18.2.0)(react@18.2.0)
+      '@storybook/types': 7.0.24
       '@types/escodegen': 0.0.6
       '@types/estree': 0.0.51
       '@types/node': 16.18.36
@@ -5750,6 +5797,7 @@ packages:
   /acorn@7.4.1:
     resolution: {integrity: sha512-nQyp0o1/mNdbTO1PO6kHkwSrmgZ0MT/jCCpNiwbUjGoRN4dlBhqJtoQuCnEOKzgTVwg0ZWiCoQy6SxMebQVh8A==}
     engines: {node: '>=0.4.0'}
+    hasBin: true
     dev: true
 
   /acorn@8.8.2:
@@ -7492,6 +7540,7 @@ packages:
   /escodegen@2.0.0:
     resolution: {integrity: sha512-mmHKys/C8BFUGI+MAWNcSYoORYLMdPzjrknd2Vc+bUsjN5bXcr8EhrNB+UTqfL1y3I9c4fw2ihgtMPQLBRiQxw==}
     engines: {node: '>=6.0'}
+    hasBin: true
     dependencies:
       esprima: 4.0.1
       estraverse: 5.3.0
@@ -9600,6 +9649,7 @@ packages:
   /json5@2.2.3:
     resolution: {integrity: sha512-XmOWe7eyHYH14cLdVPoyg+GOH3rYX++KpzrylJwSW98t3Nk+U8XOl8FWKOgwtzdb8lXGf6zYwDUzeHMWfxasyg==}
     engines: {node: '>=6'}
+    hasBin: true
     dev: true
 
   /jsonc-eslint-parser@2.3.0:
@@ -11700,6 +11750,7 @@ packages:
 
   /semver@6.3.0:
     resolution: {integrity: sha512-b39TBaTSfV6yBrapU89p5fKekE2m/NwnDocOVruQFS1/veMgdzuPcnOM34M6CwxW8jH/lxEa5rBoDeUwu5HHTw==}
+    hasBin: true
     dev: true
 
   /semver@7.0.0:
