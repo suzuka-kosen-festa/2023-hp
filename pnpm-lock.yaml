@@ -71,11 +71,11 @@ devDependencies:
     specifier: 1.4.0
     version: 1.4.0
   '@vanilla-extract/css':
-    specifier: 1.11.1
-    version: 1.11.1
+    specifier: 1.12.0
+    version: 1.12.0
   '@vanilla-extract/recipes':
     specifier: 0.4.0
-    version: 0.4.0(@vanilla-extract/css@1.11.1)
+    version: 0.4.0(@vanilla-extract/css@1.12.0)
   '@vanilla-extract/vite-plugin':
     specifier: 3.8.2
     version: 3.8.2(@types/node@18.16.18)(terser@5.18.2)(ts-node@10.9.1)(vite@4.3.9)
@@ -5397,8 +5397,8 @@ packages:
       - supports-color
     dev: true
 
-  /@vanilla-extract/css@1.11.1:
-    resolution: {integrity: sha512-iLalh4K4sXgkfzsiFUsiek4IY1/N4jtJKdr1ubpyszPE7W7G2v+DAl8KcmKkRA6vS7k5mFNW34e4fNki6T2cbQ==}
+  /@vanilla-extract/css@1.12.0:
+    resolution: {integrity: sha512-TEttZfnqTRtwgVYiBWQSGGUiVaYWReHp59DsavITEvh4TpJNifZFGhBznHx4wQFEsyio6xA513jps4tmqR6zmw==}
     dependencies:
       '@emotion/hash': 0.9.1
       '@vanilla-extract/private': 1.0.3
@@ -5419,7 +5419,7 @@ packages:
       '@babel/core': 7.22.5
       '@babel/plugin-syntax-typescript': 7.22.5(@babel/core@7.22.5)
       '@vanilla-extract/babel-plugin-debug-ids': 1.0.3
-      '@vanilla-extract/css': 1.11.1
+      '@vanilla-extract/css': 1.12.0
       esbuild: 0.17.6
       eval: 0.1.6
       find-up: 5.0.0
@@ -5443,12 +5443,12 @@ packages:
     resolution: {integrity: sha512-17kVyLq3ePTKOkveHxXuIJZtGYs+cSoev7BlP+Lf4916qfDhk/HBjvlYDe8egrea7LNPHKwSZJK/bzZC+Q6AwQ==}
     dev: true
 
-  /@vanilla-extract/recipes@0.4.0(@vanilla-extract/css@1.11.1):
+  /@vanilla-extract/recipes@0.4.0(@vanilla-extract/css@1.12.0):
     resolution: {integrity: sha512-gFgB7BofUYbtbxINHK6DhMv1JDFDXp/YI/Xm+cqKar+1I/2dfxPepeDxSexL6YB4ftfeaDw8Kn5zydMvHcGOEQ==}
     peerDependencies:
       '@vanilla-extract/css': ^1.0.0
     dependencies:
-      '@vanilla-extract/css': 1.11.1
+      '@vanilla-extract/css': 1.12.0
     dev: true
 
   /@vanilla-extract/vite-plugin@3.8.2(@types/node@18.16.18)(terser@5.18.2)(ts-node@10.9.1)(vite@4.3.9):
@@ -6695,6 +6695,7 @@ packages:
   /cssesc@3.0.0:
     resolution: {integrity: sha512-/Tb/JcjK111nNScGob5MNtsntNM1aCNUDipB/TkwZFhyDrrE47SOx/18wF2bbjgc3ZzCSKW1T5nt5EbFoAz/Vg==}
     engines: {node: '>=4'}
+    hasBin: true
     dev: true
 
   /csstype@3.1.2:
