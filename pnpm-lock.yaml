@@ -140,8 +140,8 @@ devDependencies:
     specifier: 0.16.4
     version: 0.16.4(vite@4.3.9)(workbox-build@7.0.0)(workbox-window@7.0.0)
   vite-plugin-ssr:
-    specifier: 0.4.132
-    version: 0.4.132(react-streaming@0.3.14)(vite@4.3.9)
+    specifier: 0.4.133
+    version: 0.4.133(react-streaming@0.3.14)(vite@4.3.9)
   vite-tsconfig-paths:
     specifier: 4.2.0
     version: 4.2.0(typescript@5.1.6)(vite@4.3.9)
@@ -7261,6 +7261,7 @@ packages:
   /esbuild@0.17.19:
     resolution: {integrity: sha512-XQ0jAPFkK/u3LcVRcvVHQcTIqD6E2H1fvZMA5dQPSOWb3suUbWbfbRf94pjc0bNzRYLfIrDRQXr7X+LHIm5oHw==}
     engines: {node: '>=12'}
+    hasBin: true
     requiresBuild: true
     optionalDependencies:
       '@esbuild/android-arm': 0.17.19
@@ -12733,9 +12734,9 @@ packages:
       - supports-color
     dev: true
 
-  /vite-plugin-ssr@0.4.132(react-streaming@0.3.14)(vite@4.3.9):
-    resolution: {integrity: sha512-+77qu4YWBLwc3sgh418q2cLmqBSZMaDCe0YNkptoy6JxZiF9KKNrS848Emg42Xoapte2S99i1OiqSAXw8bzvyQ==}
-    engines: {node: '>=12.19.0'}
+  /vite-plugin-ssr@0.4.133(react-streaming@0.3.14)(vite@4.3.9):
+    resolution: {integrity: sha512-/m9BYS4IBEJr8PmzHubkae2OjyWdX2Jf06QoooIHIkd+0szzTMhPkEBBQAeqnaGM30yoydKfwAa/NC3yLDBZZw==}
+    engines: {node: '>=16.0.0'}
     hasBin: true
     peerDependencies:
       react-streaming: '>=0.3.5'
@@ -12748,7 +12749,7 @@ packages:
       '@brillout/json-serializer': 0.5.3
       '@brillout/picocolors': 1.0.4
       '@brillout/vite-plugin-import-build': 0.2.18
-      acorn: 8.8.2
+      acorn: 8.9.0
       cac: 6.7.14
       es-module-lexer: 0.10.5
       esbuild: 0.17.19
