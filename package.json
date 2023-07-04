@@ -48,7 +48,7 @@
     "@storybook/addon-links": "7.0.25",
     "@storybook/blocks": "7.0.25",
     "@storybook/react": "7.0.25",
-    "@storybook/react-vite": "7.0.24",
+    "@storybook/react-vite": "7.0.25",
     "@storybook/testing-library": "0.2.0",
     "@testing-library/react": "14.0.0",
     "@types/node": "18.16.19",
