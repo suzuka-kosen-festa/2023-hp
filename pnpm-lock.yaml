@@ -47,8 +47,8 @@ devDependencies:
     specifier: 7.0.25
     version: 7.0.25(react-dom@18.2.0)(react@18.2.0)
   '@storybook/react':
-    specifier: 7.0.24
-    version: 7.0.24(react-dom@18.2.0)(react@18.2.0)(typescript@5.1.6)
+    specifier: 7.0.25
+    version: 7.0.25(react-dom@18.2.0)(react@18.2.0)(typescript@5.1.6)
   '@storybook/react-vite':
     specifier: 7.0.24
     version: 7.0.24(react-dom@18.2.0)(react@18.2.0)(typescript@5.1.6)(vite@4.3.9)
@@ -4456,6 +4456,13 @@ packages:
       '@storybook/preview-api': 7.0.24
     dev: true
 
+  /@storybook/core-client@7.0.25:
+    resolution: {integrity: sha512-7KZg9DmCxLXLNwFZtalLLvN8kkGrSwf8ASFF1KXK5AM9oi0+ZOMZekCAuUzLM6g/vc/wMNYtQYnmMDlxD4xXSQ==}
+    dependencies:
+      '@storybook/client-logger': 7.0.25
+      '@storybook/preview-api': 7.0.25
+    dev: true
+
   /@storybook/core-common@7.0.24:
     resolution: {integrity: sha512-FHjL2dpwDHnicLTePkiZMfO5eFxJxpTP2xmGWFQnWFTyEgh+ipcWnLVoYYXiKcc6EzKED0yebk8rAIalbzpICg==}
     dependencies:
@@ -4847,6 +4854,46 @@ packages:
       '@storybook/preview-api': 7.0.24
       '@storybook/react-dom-shim': 7.0.24(react-dom@18.2.0)(react@18.2.0)
       '@storybook/types': 7.0.24
+      '@types/escodegen': 0.0.6
+      '@types/estree': 0.0.51
+      '@types/node': 16.18.36
+      acorn: 7.4.1
+      acorn-jsx: 5.3.2(acorn@7.4.1)
+      acorn-walk: 7.2.0
+      escodegen: 2.0.0
+      html-tags: 3.3.1
+      lodash: 4.17.21
+      prop-types: 15.8.1
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
+      react-element-to-jsx-string: 15.0.0(react-dom@18.2.0)(react@18.2.0)
+      ts-dedent: 2.2.0
+      type-fest: 2.19.0
+      typescript: 5.1.6
+      util-deprecate: 1.0.2
+    transitivePeerDependencies:
+      - encoding
+      - supports-color
+    dev: true
+
+  /@storybook/react@7.0.25(react-dom@18.2.0)(react@18.2.0)(typescript@5.1.6):
+    resolution: {integrity: sha512-yH4KfD1am19Ui7Kqw0hWe5mbFgrsXaCDqbe29dXbXUpHHfIpptHSyYoJ1dJH+GZP2VXkYMi+aqKlqvQpG9Dmrg==}
+    engines: {node: '>=16.0.0'}
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0
+      react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
+      typescript: '*'
+    peerDependenciesMeta:
+      typescript:
+        optional: true
+    dependencies:
+      '@storybook/client-logger': 7.0.25
+      '@storybook/core-client': 7.0.25
+      '@storybook/docs-tools': 7.0.25
+      '@storybook/global': 5.0.0
+      '@storybook/preview-api': 7.0.25
+      '@storybook/react-dom-shim': 7.0.25(react-dom@18.2.0)(react@18.2.0)
+      '@storybook/types': 7.0.25
       '@types/escodegen': 0.0.6
       '@types/estree': 0.0.51
       '@types/node': 16.18.36
