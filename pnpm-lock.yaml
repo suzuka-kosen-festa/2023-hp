@@ -29,8 +29,8 @@ devDependencies:
     specifier: 3.9.0
     version: 3.9.0(@markuplint/ml-core@3.11.0)
   '@re-taro/eslint-config':
-    specifier: 1.9.14
-    version: 1.9.14(eslint@8.44.0)(svelte@3.59.1)(typescript@5.1.6)
+    specifier: 1.9.15
+    version: 1.9.15(eslint@8.44.0)(svelte@3.59.1)(typescript@5.1.6)
   '@storybook/addon-a11y':
     specifier: 7.0.26
     version: 7.0.26(react-dom@18.2.0)(react@18.2.0)
@@ -3913,8 +3913,8 @@ packages:
       tar-fs: 2.1.1
     dev: true
 
-  /@next/eslint-plugin-next@13.4.8:
-    resolution: {integrity: sha512-cmfVHpxWjjcETFt2WHnoFU6EmY69QcPJRlRNAooQlNe53Ke90vg1Ci/dkPffryJZaxxiRziP9bQrV8lDVCn3Fw==}
+  /@next/eslint-plugin-next@13.4.9:
+    resolution: {integrity: sha512-nDtGpa992tNyAkT/KmSMy7QkHfNZmGCBYhHtafU97DubqxzNdvLsqRtliQ4FU04CysRCtvP2hg8rRC1sAKUTUA==}
     dependencies:
       glob: 7.1.7
     dev: true
@@ -3952,7 +3952,7 @@ packages:
     engines: {node: ^12.20.0 || ^14.18.0 || >=16.0.0}
     dependencies:
       cross-spawn: 7.0.3
-      fast-glob: 3.2.12
+      fast-glob: 3.3.0
       is-glob: 4.0.3
       open: 9.1.0
       picocolors: 1.0.0
@@ -3963,12 +3963,12 @@ packages:
     resolution: {integrity: sha512-a5Sab1C4/icpTZVzZc5Ghpz88yQtGOyNqYXcZgOssB2uuAr+wF/MvN6bgtW32q7HHrvBki+BsZ0OuNv6EV3K9g==}
     dev: true
 
-  /@re-taro/eslint-config@1.9.14(eslint@8.44.0)(svelte@3.59.1)(typescript@5.1.6):
-    resolution: {integrity: sha512-g9B3ihiwiqcgGS4sC+LoLn2l9GOt1pTXCuI91I4LQCZ/J5NSWCRcZ4GGp5G46PKhK70USs6NWOEpsiqV3nfXqA==}
+  /@re-taro/eslint-config@1.9.15(eslint@8.44.0)(svelte@3.59.1)(typescript@5.1.6):
+    resolution: {integrity: sha512-f13UyMznYN/4tZ9amVURLyQuLfWIkNtwLGlV45Jtbktk/4hiVQynGBDI6fqjQWHS1l9vPFcLOKeS16iw/RwrMw==}
     peerDependencies:
       eslint: ^8.0.0
     dependencies:
-      '@re-taro/eslint-plugin': 1.9.14(eslint@8.44.0)(svelte@3.59.1)(typescript@5.1.6)
+      '@re-taro/eslint-plugin': 1.9.15(eslint@8.44.0)(svelte@3.59.1)(typescript@5.1.6)
       eslint: 8.44.0
       eslint-config-prettier: 8.8.0(eslint@8.44.0)
     transitivePeerDependencies:
@@ -3979,12 +3979,12 @@ packages:
       - typescript
     dev: true
 
-  /@re-taro/eslint-plugin@1.9.14(eslint@8.44.0)(svelte@3.59.1)(typescript@5.1.6):
-    resolution: {integrity: sha512-Uv32CRleDo5jxkOah93qx43dppVnXWB33bbgrdWG5sAn6l0FFCWd/X+y5LbQNzXHvOc5rkR6yPa97vsvRCQXPA==}
+  /@re-taro/eslint-plugin@1.9.15(eslint@8.44.0)(svelte@3.59.1)(typescript@5.1.6):
+    resolution: {integrity: sha512-thKOqc63cqMpO8QHX+4XMUqpZnkO4qQSCvXGIBjqE6JHwMCe2qSAbisp5UkjaPuNa9ou14YkHsoaT1HL+XPrkw==}
     peerDependencies:
       eslint: ^8.0.0
     dependencies:
-      '@next/eslint-plugin-next': 13.4.8
+      '@next/eslint-plugin-next': 13.4.9
       '@typescript-eslint/eslint-plugin': 5.61.0(@typescript-eslint/parser@5.61.0)(eslint@8.44.0)(typescript@5.1.6)
       '@typescript-eslint/parser': 5.61.0(eslint@8.44.0)(typescript@5.1.6)
       eslint: 8.44.0
@@ -8759,7 +8759,7 @@ packages:
     dependencies:
       array-union: 2.1.0
       dir-glob: 3.0.1
-      fast-glob: 3.2.12
+      fast-glob: 3.3.0
       ignore: 5.2.4
       merge2: 1.4.1
       slash: 3.0.0
@@ -8770,7 +8770,7 @@ packages:
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
     dependencies:
       dir-glob: 3.0.1
-      fast-glob: 3.2.12
+      fast-glob: 3.3.0
       ignore: 5.2.4
       merge2: 1.4.1
       slash: 4.0.0
