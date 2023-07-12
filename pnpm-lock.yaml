@@ -20,8 +20,8 @@ dependencies:
 
 devDependencies:
   '@markuplint/jsx-parser':
-    specifier: 3.8.0
-    version: 3.8.0(typescript@5.1.6)
+    specifier: 3.9.0
+    version: 3.9.0(typescript@5.1.6)
   '@markuplint/ml-config':
     specifier: 3.10.0
     version: 3.10.0
@@ -3724,6 +3724,18 @@ packages:
       - typescript
     dev: true
 
+  /@markuplint/html-parser@3.10.0:
+    resolution: {integrity: sha512-+XoUe3Y6kfFfgCZ1K/r46mAPetk8sORoxtwD3ZkcrhR/1yQDbh1iFBBUqTjpZeSMyQaozhNt16ACXTO3vUgvTw==}
+    dependencies:
+      '@markuplint/ml-ast': 3.2.0
+      '@markuplint/parser-utils': 3.10.0
+      parse5: 7.1.2
+      tslib: 2.6.0
+      type-fest: 3.12.0
+    transitivePeerDependencies:
+      - supports-color
+    dev: true
+
   /@markuplint/html-parser@3.9.0:
     resolution: {integrity: sha512-JhZjoAJewn/56rPCHp9dJu3PW3f34MRHMWNSIennYyDkfpppOB1+IdEDwJMDR+4w6xlJO9joJxorfOQL8q4p6g==}
     dependencies:
@@ -3748,15 +3760,15 @@ packages:
     resolution: {integrity: sha512-M1eYAOpvRBOnBt05+2+YKOkXbbpn/Z6ABV/Ecwv0NxbKHZuzRZyZkuWVsYg2MOGFwB0TXWkyE3AFGh4r74ZOLA==}
     dev: true
 
-  /@markuplint/jsx-parser@3.8.0(typescript@5.1.6):
-    resolution: {integrity: sha512-ccq76J8e6VCB9e7jF3CkhGSbFi1V8jTr7og/Se0F4c97niqwiPEu1IhvSgyU6ScpWFMZT4FUHDWFA1TcJwYgkw==}
+  /@markuplint/jsx-parser@3.9.0(typescript@5.1.6):
+    resolution: {integrity: sha512-bAH3Kv5E4DioCSWjENhEmjeI/udJyCfaQGqeLsfLbTu/9xaYM8IqvqvaQ26aSk6zREjiWPdexZ6FTy+6IxGmdA==}
     dependencies:
-      '@markuplint/html-parser': 3.9.0
+      '@markuplint/html-parser': 3.10.0
       '@markuplint/ml-ast': 3.2.0
-      '@markuplint/parser-utils': 3.9.0
-      '@typescript-eslint/types': 5.59.11
-      '@typescript-eslint/typescript-estree': 5.59.11(typescript@5.1.6)
-      tslib: 2.5.3
+      '@markuplint/parser-utils': 3.10.0
+      '@typescript-eslint/types': 5.61.0
+      '@typescript-eslint/typescript-estree': 5.61.0(typescript@5.1.6)
+      tslib: 2.6.0
     transitivePeerDependencies:
       - supports-color
       - typescript
@@ -3811,6 +3823,19 @@ packages:
       is-plain-object: 5.0.0
       tslib: 2.5.3
       type-fest: 3.12.0
+    transitivePeerDependencies:
+      - supports-color
+    dev: true
+
+  /@markuplint/parser-utils@3.10.0:
+    resolution: {integrity: sha512-/na4v566HP0MCunJZkdgjhAAhVI4FmIqFnCwezE8zVfZn4Se0VECS5V/AQ9MHBSK7xSufgpEhCmjfBZDDJo+Ag==}
+    dependencies:
+      '@markuplint/ml-ast': 3.2.0
+      '@markuplint/types': 3.9.0
+      '@types/uuid': 9.0.2
+      tslib: 2.6.0
+      type-fest: 3.12.0
+      uuid: 9.0.0
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -3880,6 +3905,23 @@ packages:
 
   /@markuplint/types@3.8.0:
     resolution: {integrity: sha512-jEPjwLQZx8LKGanL2MAiH3icKbZ/vesFg/0NupIbALc5jQA2yy3itEnQ9lNj3YzE5BlM/nAgP7IMbeQMuoeoOw==}
+    dependencies:
+      '@types/bcp-47': 1.0.0
+      '@types/css-tree': 2.3.1
+      '@types/debug': 4.1.8
+      '@types/whatwg-mimetype': 3.0.0
+      bcp-47: 1.0.8
+      css-tree: 2.3.1
+      debug: 4.3.4
+      leven: 3.1.0
+      type-fest: 3.12.0
+      whatwg-mimetype: 3.0.0
+    transitivePeerDependencies:
+      - supports-color
+    dev: true
+
+  /@markuplint/types@3.9.0:
+    resolution: {integrity: sha512-+z8qlubU9JCzT1GGqXQ1Ue6EET5B+G0ci6Z/IN0XeksvyWYSXYWrHqq4ccaoC+tLBzcoJNyj+eQhDAqQ+6Kg5A==}
     dependencies:
       '@types/bcp-47': 1.0.0
       '@types/css-tree': 2.3.1
@@ -12598,6 +12640,10 @@ packages:
 
   /tslib@2.5.3:
     resolution: {integrity: sha512-mSxlJJwl3BMEQCUNnxXBU9jP4JBktcEGhURcPR6VQVlnP0FdDEsIaz0C35dXNGLyRfrATNofF0F5p2KPxQgB+w==}
+    dev: true
+
+  /tslib@2.6.0:
+    resolution: {integrity: sha512-7At1WUettjcSRHXCyYtTselblcHl9PJFFVKiCAy/bY97+BPZXSQ2wbq0P9s8tK2G7dFQfNnlJnPAiArVBVBsfA==}
     dev: true
 
   /tsutils@3.21.0(typescript@5.1.6):
