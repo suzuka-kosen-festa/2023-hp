@@ -38,7 +38,7 @@
     "react-streaming": "0.3.14"
   },
   "devDependencies": {
-    "@markuplint/jsx-parser": "3.8.0",
+    "@markuplint/jsx-parser": "3.9.0",
     "@markuplint/ml-config": "3.10.0",
     "@markuplint/react-spec": "3.9.0",
     "@re-taro/eslint-config": "1.9.15",
