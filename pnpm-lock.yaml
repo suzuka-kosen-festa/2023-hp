@@ -29,8 +29,8 @@ devDependencies:
     specifier: 3.10.0
     version: 3.10.0(@markuplint/ml-core@3.12.0)
   '@re-taro/eslint-config':
-    specifier: 1.9.16
-    version: 1.9.16(eslint@8.45.0)(svelte@3.59.1)(typescript@5.1.6)
+    specifier: 1.9.17
+    version: 1.9.17(eslint@8.45.0)(svelte@3.59.1)(typescript@5.1.6)
   '@storybook/addon-a11y':
     specifier: 7.0.27
     version: 7.0.27(react-dom@18.2.0)(react@18.2.0)
@@ -3914,8 +3914,8 @@ packages:
       tar-fs: 2.1.1
     dev: true
 
-  /@next/eslint-plugin-next@13.4.9:
-    resolution: {integrity: sha512-nDtGpa992tNyAkT/KmSMy7QkHfNZmGCBYhHtafU97DubqxzNdvLsqRtliQ4FU04CysRCtvP2hg8rRC1sAKUTUA==}
+  /@next/eslint-plugin-next@13.4.10:
+    resolution: {integrity: sha512-YJqyq6vk39JQfvaNtN83t/p5Jy45+bazRL+V4QI8FPd3FBqFYMEsULiwRLgSJMgFqkk4t4JbeZurz+gILEAFpA==}
     dependencies:
       glob: 7.1.7
     dev: true
@@ -3964,12 +3964,12 @@ packages:
     resolution: {integrity: sha512-a5Sab1C4/icpTZVzZc5Ghpz88yQtGOyNqYXcZgOssB2uuAr+wF/MvN6bgtW32q7HHrvBki+BsZ0OuNv6EV3K9g==}
     dev: true
 
-  /@re-taro/eslint-config@1.9.16(eslint@8.45.0)(svelte@3.59.1)(typescript@5.1.6):
-    resolution: {integrity: sha512-lEj+PQNHFS9rTZpLy99sZPCIJ12o9Hq9j49g1vcB08LEJfIs+D8ZyFIJEBqDvZaKsB+P+ncKHoWucfA6o7mN5w==}
+  /@re-taro/eslint-config@1.9.17(eslint@8.45.0)(svelte@3.59.1)(typescript@5.1.6):
+    resolution: {integrity: sha512-+hkbS3FqFEeRC5greV8+Cfw6WOJ87dYdTg2MUiIYIuwRYDA83TAk7d9cza85VcQd0wQ9FTSgOa1IVU0q6XHupA==}
     peerDependencies:
       eslint: ^8.0.0
     dependencies:
-      '@re-taro/eslint-plugin': 1.9.16(eslint@8.45.0)(svelte@3.59.1)(typescript@5.1.6)
+      '@re-taro/eslint-plugin': 1.9.17(eslint@8.45.0)(svelte@3.59.1)(typescript@5.1.6)
       eslint: 8.45.0
       eslint-config-prettier: 8.8.0(eslint@8.45.0)
     transitivePeerDependencies:
@@ -3980,12 +3980,12 @@ packages:
       - typescript
     dev: true
 
-  /@re-taro/eslint-plugin@1.9.16(eslint@8.45.0)(svelte@3.59.1)(typescript@5.1.6):
-    resolution: {integrity: sha512-g1UTCtkiKN9ew9PeqOHG9tXQdPWX050HBG01oGquLWvlbQvUjuF/xrKPjETZKtemhvp7isq3pDLppSqAR+e/5Q==}
+  /@re-taro/eslint-plugin@1.9.17(eslint@8.45.0)(svelte@3.59.1)(typescript@5.1.6):
+    resolution: {integrity: sha512-jBcn2BlF3vgB38iCY8p3JVqzPZfedQsRn+VLU+Wp+rpSO7UGRexAxI+voE21v143f79Yzuy6fhe0gaHNizjEsw==}
     peerDependencies:
       eslint: ^8.0.0
     dependencies:
-      '@next/eslint-plugin-next': 13.4.9
+      '@next/eslint-plugin-next': 13.4.10
       '@typescript-eslint/eslint-plugin': 6.0.0(@typescript-eslint/parser@6.0.0)(eslint@8.45.0)(typescript@5.1.6)
       '@typescript-eslint/parser': 6.0.0(eslint@8.45.0)(typescript@5.1.6)
       eslint: 8.45.0
@@ -4003,7 +4003,7 @@ packages:
       eslint-plugin-react-hooks: 4.6.0(eslint@8.45.0)
       eslint-plugin-redos: 4.5.0-beta.4(eslint@8.45.0)
       eslint-plugin-svelte3: 4.0.0(eslint@8.45.0)(svelte@3.59.1)
-      eslint-plugin-unicorn: 47.0.0(eslint@8.45.0)
+      eslint-plugin-unicorn: 48.0.0(eslint@8.45.0)
       eslint-plugin-vue: 9.15.1(eslint@8.45.0)
       eslint-plugin-yml: 1.8.0(eslint@8.45.0)
       jsonc-eslint-parser: 2.3.0
@@ -7906,11 +7906,11 @@ packages:
       svelte: 3.59.1
     dev: true
 
-  /eslint-plugin-unicorn@47.0.0(eslint@8.45.0):
-    resolution: {integrity: sha512-ivB3bKk7fDIeWOUmmMm9o3Ax9zbMz1Bsza/R2qm46ufw4T6VBFBaJIR1uN3pCKSmSXm8/9Nri8V+iUut1NhQGA==}
+  /eslint-plugin-unicorn@48.0.0(eslint@8.45.0):
+    resolution: {integrity: sha512-8fk/v3p1ro34JSVDBEmtOq6EEQRpMR0iTir79q69KnXFZ6DJyPkT3RAi+ZoTqhQMdDSpGh8BGR68ne1sP5cnAA==}
     engines: {node: '>=16'}
     peerDependencies:
-      eslint: '>=8.38.0'
+      eslint: '>=8.44.0'
     dependencies:
       '@babel/helper-validator-identifier': 7.22.5
       '@eslint-community/eslint-utils': 4.4.0(eslint@8.45.0)
@@ -7926,8 +7926,7 @@ packages:
       read-pkg-up: 7.0.1
       regexp-tree: 0.1.27
       regjsparser: 0.10.0
-      safe-regex: 2.1.1
-      semver: 7.5.3
+      semver: 7.5.4
       strip-indent: 3.0.0
     dev: true
 
@@ -11809,12 +11808,6 @@ packages:
       is-regex: 1.1.4
     dev: true
 
-  /safe-regex@2.1.1:
-    resolution: {integrity: sha512-rx+x8AMzKb5Q5lQ95Zoi6ZbJqwCLkqi3XuJXp5P3rT8OEc6sZCJG5AE5dU3lsgRr/F4Bs31jSlVN+j5KrsGu9A==}
-    dependencies:
-      regexp-tree: 0.1.27
-    dev: true
-
   /safer-buffer@2.1.2:
     resolution: {integrity: sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==}
     dev: true
@@ -11863,6 +11856,14 @@ packages:
 
   /semver@7.5.3:
     resolution: {integrity: sha512-QBlUtyVk/5EeHbi7X0fw6liDZc7BBmEaSYn01fMU1OUYbf6GPsbTtd8WmnqbI20SeycoHSeiybkE/q1Q+qlThQ==}
+    engines: {node: '>=10'}
+    hasBin: true
+    dependencies:
+      lru-cache: 6.0.0
+    dev: true
+
+  /semver@7.5.4:
+    resolution: {integrity: sha512-1bCSESV6Pv+i21Hvpxp3Dx+pSD8lIPt8uVjRrxAUt/nbswYc+tK6Y2btiULjd4+fnq15PX+nqQDC7Oft7WkwcA==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
