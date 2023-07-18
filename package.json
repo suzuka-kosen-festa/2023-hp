@@ -42,7 +42,7 @@
     "@markuplint/ml-config": "3.11.0",
     "@markuplint/react-spec": "3.10.0",
     "@re-taro/eslint-config": "1.9.17",
-    "@storybook/addon-a11y": "7.0.27",
+    "@storybook/addon-a11y": "7.1.0",
     "@storybook/addon-essentials": "7.0.27",
     "@storybook/addon-interactions": "7.0.27",
     "@storybook/addon-links": "7.0.27",
