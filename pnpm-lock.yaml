@@ -92,8 +92,8 @@ devDependencies:
     specifier: 8.45.0
     version: 8.45.0
   eslint-plugin-storybook:
-    specifier: 0.6.12
-    version: 0.6.12(eslint@8.45.0)(typescript@5.1.6)
+    specifier: 0.6.13
+    version: 0.6.13(eslint@8.45.0)(typescript@5.1.6)
   happy-dom:
     specifier: 10.5.2
     version: 10.5.2
@@ -4598,7 +4598,7 @@ packages:
       '@typescript-eslint/typescript-estree': 5.59.11(typescript@5.1.6)
       eslint: 8.45.0
       eslint-scope: 5.1.1
-      semver: 7.5.1
+      semver: 7.5.4
     transitivePeerDependencies:
       - supports-color
       - typescript
@@ -6856,8 +6856,8 @@ packages:
       recheck: 4.5.0-beta.4
     dev: true
 
-  /eslint-plugin-storybook@0.6.12(eslint@8.45.0)(typescript@5.1.6):
-    resolution: {integrity: sha512-XbIvrq6hNVG6rpdBr+eBw63QhOMLpZneQVSooEDow8aQCWGCk/5vqtap1yxpVydNfSxi3S/3mBBRLQqKUqQRww==}
+  /eslint-plugin-storybook@0.6.13(eslint@8.45.0)(typescript@5.1.6):
+    resolution: {integrity: sha512-smd+CS0WH1jBqUEJ3znGS7DU4ayBE9z6lkQAK2yrSUv1+rq8BT/tiI5C/rKE7rmiqiAfojtNYZRhzo5HrulccQ==}
     engines: {node: 12.x || 14.x || >= 16}
     peerDependencies:
       eslint: '>=6'
@@ -10726,13 +10726,6 @@ packages:
   /semver@7.0.0:
     resolution: {integrity: sha512-+GB6zVA9LWh6zovYQLALHwv5rb2PHGlJi3lfiqIHxR0uuwCgefcOJc59v9fv1w8GbStwxuuqqAjI9NMAOOgq1A==}
     hasBin: true
-    dev: true
-
-  /semver@7.5.1:
-    resolution: {integrity: sha512-Wvss5ivl8TMRZXXESstBA4uR5iXgEN/VC5/sOcuXdVLzcdkz4HWetIoRfG5gb5X+ij/G9rw9YoGn3QoQ8OCSpw==}
-    engines: {node: '>=10'}
-    dependencies:
-      lru-cache: 6.0.0
     dev: true
 
   /semver@7.5.3:
