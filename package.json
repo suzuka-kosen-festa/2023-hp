@@ -44,7 +44,7 @@
     "@re-taro/eslint-config": "1.9.18",
     "@storybook/addon-a11y": "7.1.1",
     "@storybook/addon-essentials": "7.1.1",
-    "@storybook/addon-interactions": "7.1.0",
+    "@storybook/addon-interactions": "7.1.1",
     "@storybook/addon-links": "7.1.0",
     "@storybook/blocks": "7.1.0",
     "@storybook/react": "7.1.0",

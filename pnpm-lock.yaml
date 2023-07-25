@@ -38,8 +38,8 @@ devDependencies:
     specifier: 7.1.1
     version: 7.1.1(react-dom@18.2.0)(react@18.2.0)
   '@storybook/addon-interactions':
-    specifier: 7.1.0
-    version: 7.1.0(react-dom@18.2.0)(react@18.2.0)
+    specifier: 7.1.1
+    version: 7.1.1(react-dom@18.2.0)(react@18.2.0)
   '@storybook/addon-links':
     specifier: 7.1.0
     version: 7.1.0(react-dom@18.2.0)(react@18.2.0)
@@ -3315,8 +3315,8 @@ packages:
       '@storybook/preview-api': 7.1.1
     dev: true
 
-  /@storybook/addon-interactions@7.1.0(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-/szt1p22FIi96krgNGDe7YQQAjIo/Xfr6WJNiIBNEHz5Qh8uycFPn16k3YJBHIi0FLFVBdqBmrdp6IX+9TCxgQ==}
+  /@storybook/addon-interactions@7.1.1(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-6xPDKkt0gi2aqFBFtMyWx09lEF8+o3Q+te+VY4mdJztKgHAllKvlc27jqAFYMHicG6XWio2VBZGUSrSTDOQ9IA==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
       react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
@@ -3326,16 +3326,16 @@ packages:
       react-dom:
         optional: true
     dependencies:
-      '@storybook/client-logger': 7.1.0
-      '@storybook/components': 7.1.0(react-dom@18.2.0)(react@18.2.0)
-      '@storybook/core-common': 7.1.0
-      '@storybook/core-events': 7.1.0
+      '@storybook/client-logger': 7.1.1
+      '@storybook/components': 7.1.1(react-dom@18.2.0)(react@18.2.0)
+      '@storybook/core-common': 7.1.1
+      '@storybook/core-events': 7.1.1
       '@storybook/global': 5.0.0
-      '@storybook/instrumenter': 7.1.0
-      '@storybook/manager-api': 7.1.0(react-dom@18.2.0)(react@18.2.0)
-      '@storybook/preview-api': 7.1.0
-      '@storybook/theming': 7.1.0(react-dom@18.2.0)(react@18.2.0)
-      '@storybook/types': 7.1.0
+      '@storybook/instrumenter': 7.1.1
+      '@storybook/manager-api': 7.1.1(react-dom@18.2.0)(react@18.2.0)
+      '@storybook/preview-api': 7.1.1
+      '@storybook/theming': 7.1.1(react-dom@18.2.0)(react@18.2.0)
+      '@storybook/types': 7.1.1
       jest-mock: 29.6.1
       polished: 4.2.2
       react: 18.2.0
@@ -3978,14 +3978,14 @@ packages:
     resolution: {integrity: sha512-FcOqPAXACP0I3oJ/ws6/rrPT9WGhu915Cg8D02a9YxLo0DE9zI+a9A5gRGvmQ09fiWPukqI8ZAEoQEdWUKMQdQ==}
     dev: true
 
-  /@storybook/instrumenter@7.1.0:
-    resolution: {integrity: sha512-vsJzxGo6IN0iS0Ro/8b2qA0x+uRLZ5JIhoN+n9fwTkHDxil/u5t7HPuNMXKkgXFKQYxVX9VlehQEu2DRz3mORQ==}
+  /@storybook/instrumenter@7.1.1:
+    resolution: {integrity: sha512-c6m6TnOGlzcmC22DnydoxSilP5O6ZIknrTarfMme/qBW4V95eK5vTpvuL9HChOBbISSrFR8bBCanm1joJ+Y8CA==}
     dependencies:
-      '@storybook/channels': 7.1.0
-      '@storybook/client-logger': 7.1.0
-      '@storybook/core-events': 7.1.0
+      '@storybook/channels': 7.1.1
+      '@storybook/client-logger': 7.1.1
+      '@storybook/core-events': 7.1.1
       '@storybook/global': 5.0.0
-      '@storybook/preview-api': 7.1.0
+      '@storybook/preview-api': 7.1.1
     dev: true
 
   /@storybook/manager-api@7.1.0(react-dom@18.2.0)(react@18.2.0):
