@@ -61,7 +61,7 @@
     "@vitejs/plugin-react": "4.0.3",
     "@vitest/ui": "0.33.0",
     "cross-env": "7.0.3",
-    "eslint": "8.45.0",
+    "eslint": "8.46.0",
     "eslint-plugin-storybook": "0.6.13",
     "happy-dom": "10.5.2",
     "markuplint": "3.12.0",
