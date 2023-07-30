@@ -51,7 +51,7 @@
     "@storybook/react-vite": "7.1.1",
     "@storybook/testing-library": "0.2.0",
     "@testing-library/react": "14.0.0",
-    "@types/node": "18.17.0",
+    "@types/node": "18.17.1",
     "@types/react": "18.2.15",
     "@types/react-dom": "18.2.7",
     "@types/subset-font": "1.4.0",
