@@ -59,7 +59,7 @@
     "@vanilla-extract/recipes": "0.4.0",
     "@vanilla-extract/vite-plugin": "3.8.2",
     "@vitejs/plugin-react": "4.0.4",
-    "@vitest/ui": "0.33.0",
+    "@vitest/ui": "0.34.1",
     "cross-env": "7.0.3",
     "eslint": "8.46.0",
     "eslint-plugin-storybook": "0.6.13",
