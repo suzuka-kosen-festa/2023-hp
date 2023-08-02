@@ -63,7 +63,7 @@
     "cross-env": "7.0.3",
     "eslint": "8.46.0",
     "eslint-plugin-storybook": "0.6.13",
-    "happy-dom": "10.5.2",
+    "happy-dom": "10.5.3",
     "markuplint": "3.12.0",
     "npm-run-all": "4.1.5",
     "prettier": "3.0.0",
