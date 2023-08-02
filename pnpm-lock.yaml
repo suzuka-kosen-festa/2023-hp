@@ -41,8 +41,8 @@ devDependencies:
     specifier: 7.2.0
     version: 7.2.0(@types/react-dom@18.2.7)(@types/react@18.2.18)(react-dom@18.2.0)(react@18.2.0)
   '@storybook/addon-links':
-    specifier: 7.1.1
-    version: 7.1.1(react-dom@18.2.0)(react@18.2.0)
+    specifier: 7.2.0
+    version: 7.2.0(react-dom@18.2.0)(react@18.2.0)
   '@storybook/blocks':
     specifier: 7.1.1
     version: 7.1.1(react-dom@18.2.0)(react@18.2.0)
@@ -3781,8 +3781,8 @@ packages:
       - supports-color
     dev: true
 
-  /@storybook/addon-links@7.1.1(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-cdc2OQj1LZkEd2dlaAc3Fp4TAHwLmnHKko/Aet3Dhm6TqH/C6UsSflZJbLXmV06x2f/Tm5UK0QQxPHBmOE7aXw==}
+  /@storybook/addon-links@7.2.0(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-IEeYuiS5Aq44Z/RmsaTBQkn5dpZIeh9VjPRz2cwM0cYfMAs1A0j0W3j8ZUtF5Rlg/3Pu4lUIhcxLcxcI1vJRlQ==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
       react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
@@ -3792,14 +3792,14 @@ packages:
       react-dom:
         optional: true
     dependencies:
-      '@storybook/client-logger': 7.1.1
-      '@storybook/core-events': 7.1.1
+      '@storybook/client-logger': 7.2.0
+      '@storybook/core-events': 7.2.0
       '@storybook/csf': 0.1.1
       '@storybook/global': 5.0.0
-      '@storybook/manager-api': 7.1.1(react-dom@18.2.0)(react@18.2.0)
-      '@storybook/preview-api': 7.1.1
-      '@storybook/router': 7.1.1(react-dom@18.2.0)(react@18.2.0)
-      '@storybook/types': 7.1.1
+      '@storybook/manager-api': 7.2.0(react-dom@18.2.0)(react@18.2.0)
+      '@storybook/preview-api': 7.2.0
+      '@storybook/router': 7.2.0(react-dom@18.2.0)(react@18.2.0)
+      '@storybook/types': 7.2.0
       prop-types: 15.8.1
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
