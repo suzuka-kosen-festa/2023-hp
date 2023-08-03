@@ -45,7 +45,7 @@
     "@storybook/addon-a11y": "7.2.1",
     "@storybook/addon-essentials": "7.2.0",
     "@storybook/addon-interactions": "7.2.1",
-    "@storybook/addon-links": "7.2.0",
+    "@storybook/addon-links": "7.2.1",
     "@storybook/blocks": "7.2.0",
     "@storybook/react": "7.2.0",
     "@storybook/react-vite": "7.2.0",
