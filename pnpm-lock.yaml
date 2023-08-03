@@ -95,8 +95,8 @@ devDependencies:
     specifier: 0.6.13
     version: 0.6.13(eslint@8.46.0)(typescript@5.1.6)
   happy-dom:
-    specifier: 10.5.3
-    version: 10.5.3
+    specifier: 10.6.3
+    version: 10.6.3
   markuplint:
     specifier: 3.12.0
     version: 3.12.0(@types/node@18.17.1)(ts-node@10.9.1)(typescript@5.1.6)
@@ -147,7 +147,7 @@ devDependencies:
     version: 4.2.0(typescript@5.1.6)(vite@4.4.8)
   vitest:
     specifier: 0.34.1
-    version: 0.34.1(@vitest/ui@0.34.1)(happy-dom@10.5.3)(terser@5.19.2)
+    version: 0.34.1(@vitest/ui@0.34.1)(happy-dom@10.6.3)(terser@5.19.2)
   wrangler:
     specifier: 3.4.0
     version: 3.4.0
@@ -5388,7 +5388,7 @@ packages:
       pathe: 1.1.1
       picocolors: 1.0.0
       sirv: 2.0.3
-      vitest: 0.34.1(@vitest/ui@0.34.1)(happy-dom@10.5.3)(terser@5.19.2)
+      vitest: 0.34.1(@vitest/ui@0.34.1)(happy-dom@10.6.3)(terser@5.19.2)
     dev: true
 
   /@vitest/utils@0.34.1:
@@ -8407,8 +8407,8 @@ packages:
       uglify-js: 3.17.4
     dev: true
 
-  /happy-dom@10.5.3:
-    resolution: {integrity: sha512-CJ8dVHOVObG32X/sL1ZaFH7gIj6Brh9c+sfhhEaL0z1YtcQkWH98Cotm3uN0Ntj8bdxdLUz8fENhb8RLVBX/Bw==}
+  /happy-dom@10.6.3:
+    resolution: {integrity: sha512-se+f89YhkhoaZ52WrsfLWIS77FwzdbHi2lbPyyrIEnSeoTU4kAdvDIdezfs+IN23ZBDL7PkqAwscNWqkIp4Gyw==}
     dependencies:
       css.escape: 1.5.1
       entities: 4.5.0
@@ -12675,7 +12675,7 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitest@0.34.1(@vitest/ui@0.34.1)(happy-dom@10.5.3)(terser@5.19.2):
+  /vitest@0.34.1(@vitest/ui@0.34.1)(happy-dom@10.6.3)(terser@5.19.2):
     resolution: {integrity: sha512-G1PzuBEq9A75XSU88yO5G4vPT20UovbC/2osB2KEuV/FisSIIsw7m5y2xMdB7RsAGHAfg2lPmp2qKr3KWliVlQ==}
     engines: {node: '>=v14.18.0'}
     hasBin: true
@@ -12720,7 +12720,7 @@ packages:
       cac: 6.7.14
       chai: 4.3.7
       debug: 4.3.4
-      happy-dom: 10.5.3
+      happy-dom: 10.6.3
       local-pkg: 0.4.3
       magic-string: 0.30.1
       pathe: 1.1.1
