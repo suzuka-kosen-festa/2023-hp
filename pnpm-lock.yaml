@@ -44,8 +44,8 @@ devDependencies:
     specifier: 7.2.1
     version: 7.2.1(react-dom@18.2.0)(react@18.2.0)
   '@storybook/blocks':
-    specifier: 7.2.0
-    version: 7.2.0(@types/react-dom@18.2.7)(@types/react@18.2.18)(react-dom@18.2.0)(react@18.2.0)
+    specifier: 7.2.1
+    version: 7.2.1(@types/react-dom@18.2.7)(@types/react@18.2.18)(react-dom@18.2.0)(react@18.2.0)
   '@storybook/react':
     specifier: 7.2.0
     version: 7.2.0(react-dom@18.2.0)(react@18.2.0)(typescript@5.1.6)
@@ -3957,6 +3957,45 @@ packages:
       - supports-color
     dev: true
 
+  /@storybook/blocks@7.2.1(@types/react-dom@18.2.7)(@types/react@18.2.18)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-1fPsFC6n9R267KwxGHiL80OuIdMDRC9QuIW4sRF0tF/G/yvucbofySYRQl/Y8LjsMJq8D4NpG5xLsneSxMP5cg==}
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0
+      react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
+    dependencies:
+      '@storybook/channels': 7.2.1
+      '@storybook/client-logger': 7.2.1
+      '@storybook/components': 7.2.1(@types/react-dom@18.2.7)(@types/react@18.2.18)(react-dom@18.2.0)(react@18.2.0)
+      '@storybook/core-events': 7.2.1
+      '@storybook/csf': 0.1.1
+      '@storybook/docs-tools': 7.2.1
+      '@storybook/global': 5.0.0
+      '@storybook/manager-api': 7.2.1(react-dom@18.2.0)(react@18.2.0)
+      '@storybook/preview-api': 7.2.1
+      '@storybook/theming': 7.2.1(react-dom@18.2.0)(react@18.2.0)
+      '@storybook/types': 7.2.1
+      '@types/lodash': 4.14.195
+      color-convert: 2.0.1
+      dequal: 2.0.3
+      lodash: 4.17.21
+      markdown-to-jsx: 7.2.1(react@18.2.0)
+      memoizerific: 1.11.3
+      polished: 4.2.2
+      react: 18.2.0
+      react-colorful: 5.6.1(react-dom@18.2.0)(react@18.2.0)
+      react-dom: 18.2.0(react@18.2.0)
+      telejson: 7.1.0
+      tocbot: 4.21.0
+      ts-dedent: 2.2.0
+      util-deprecate: 1.0.2
+    transitivePeerDependencies:
+      - '@types/react'
+      - '@types/react-dom'
+      - debug
+      - encoding
+      - supports-color
+    dev: true
+
   /@storybook/builder-manager@7.2.0:
     resolution: {integrity: sha512-WGenq08db5mmlMTQ3dFsZD1tNYx43vjgbDJOeABUJ8pyTDZ0WPT6lfRWn9D2qzG1Sie4bkv2FyJdlc/AfM7SIQ==}
     dependencies:
@@ -4350,6 +4389,20 @@ packages:
       '@storybook/core-common': 7.2.0
       '@storybook/preview-api': 7.2.0
       '@storybook/types': 7.2.0
+      '@types/doctrine': 0.0.3
+      doctrine: 3.0.0
+      lodash: 4.17.21
+    transitivePeerDependencies:
+      - encoding
+      - supports-color
+    dev: true
+
+  /@storybook/docs-tools@7.2.1:
+    resolution: {integrity: sha512-snRdkqdaxAwlalIEtuElySzC68Lo/0KfrGRR6xSDxWIhjAPNqsRLPHEXlZrJ43Tn/V2oxCRU8eb21pP5/58krw==}
+    dependencies:
+      '@storybook/core-common': 7.2.1
+      '@storybook/preview-api': 7.2.1
+      '@storybook/types': 7.2.1
       '@types/doctrine': 0.0.3
       doctrine: 3.0.0
       lodash: 4.17.21
