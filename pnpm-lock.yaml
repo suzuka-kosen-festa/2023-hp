@@ -140,8 +140,8 @@ devDependencies:
     specifier: 0.16.4
     version: 0.16.4(vite@4.4.8)(workbox-build@7.0.0)(workbox-window@7.0.0)
   vite-plugin-ssr:
-    specifier: 0.4.134
-    version: 0.4.134(react-streaming@0.3.14)(vite@4.4.8)
+    specifier: 0.4.135
+    version: 0.4.135(react-streaming@0.3.14)(vite@4.4.8)
   vite-tsconfig-paths:
     specifier: 4.2.0
     version: 4.2.0(typescript@5.1.6)(vite@4.4.8)
@@ -12932,8 +12932,8 @@ packages:
       - supports-color
     dev: true
 
-  /vite-plugin-ssr@0.4.134(react-streaming@0.3.14)(vite@4.4.8):
-    resolution: {integrity: sha512-zUr78R7p4gvN0evYBddBiEGhtogg2rewWLPaqNLnTLT87gmBGXf2uR1ONmyWpzJcov87qlteOg2iJOIeWq1SlQ==}
+  /vite-plugin-ssr@0.4.135(react-streaming@0.3.14)(vite@4.4.8):
+    resolution: {integrity: sha512-JQG0WX25EnAPDW/dtVjRntubP32FNV1V3Z18cNCW/PNKPlTffqYlFoQ/AMlbeU/zrgNCJehG0pO32bq3R1Xvmg==}
     engines: {node: '>=16.0.0'}
     hasBin: true
     peerDependencies:
