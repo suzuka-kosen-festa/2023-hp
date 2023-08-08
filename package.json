@@ -81,7 +81,7 @@
     "vite-plugin-ssr": "0.4.135",
     "vite-tsconfig-paths": "4.2.0",
     "vitest": "0.34.1",
-    "wrangler": "3.4.0"
+    "wrangler": "3.5.0"
   },
   "type": "module",
   "packageManager": "pnpm@8.6.12"
