@@ -4,7 +4,7 @@ import compress from "vite-plugin-compression";
 import tsconfig from "vite-tsconfig-paths";
 import { vanillaExtractPlugin } from "@vanilla-extract/vite-plugin";
 
-export default defineConfig(async () => {
+export default defineConfig(() => {
   return {
     build: {
       minify: "terser",
