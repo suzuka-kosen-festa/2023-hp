@@ -97,6 +97,6 @@ jobs:
           path: __screenshots__
       - name: Workaround for detached HEAD
         run: |
-          git checkout ${GITHUB_REF#refs/heads/} || git checkout -b ${GITHUB_REF#refs/heads/} && git pull
+          git checkout ${{ github.head_ref }} || git checkout -b ${{ github.head_ref }} && git pull
       - name: Visual Regression Test
         run: pnpm vrt
