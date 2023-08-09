@@ -2,7 +2,7 @@ import react from "@vitejs/plugin-react";
 import ssr from "vite-plugin-ssr/plugin";
 /// <reference types="vitest" />
 import { defineConfig } from "vite";
-import visualizer from "rollup-plugin-visualizer";
+import { visualizer } from "rollup-plugin-visualizer";
 import compress from "vite-plugin-compression";
 import tsconfig from "vite-tsconfig-paths";
 import { vanillaExtractPlugin } from "@vanilla-extract/vite-plugin";
