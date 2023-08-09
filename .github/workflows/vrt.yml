@@ -60,8 +60,8 @@ jobs:
         with:
           name: storybook-artifact
           path: storybook-static
-      - name: Debug
-        run: ls -la
+      - name: Install Chrome with puppeteer
+        run: node node_modules/puppeteer/install.js #FIXME: This is an escape hatch
       - name: Capture
         run: pnpm capture -- -shard=${{ matrix.shard }}
       - name: Upload capture artifact
