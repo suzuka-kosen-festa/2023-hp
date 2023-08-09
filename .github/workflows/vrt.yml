@@ -8,7 +8,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 10
     permissions:
       contents: read
     steps:
@@ -28,7 +28,7 @@ jobs:
   capture:
     needs: build
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
     permissions:
       contents: read
     strategy:
@@ -60,6 +60,8 @@ jobs:
         with:
           name: storybook-artifact
           path: storybook-static
+      - name: Debug
+        run: ls -la
       - name: Capture
         run: pnpm capture -- -shard=${{ matrix.shard }}
       - name: Upload capture artifact
@@ -71,7 +73,7 @@ jobs:
   regression:
     needs: capture
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
     permissions:
       contents: read
     env:
