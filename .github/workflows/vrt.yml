@@ -86,6 +86,8 @@ jobs:
       R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
     steps:
       - uses: actions/checkout@v3.5.3
+        with:
+          fetch-depth: 0
       - name: Setup Node.js
         uses: re-taro/actions/setup-node@v1.1.2
         with:
@@ -97,6 +99,6 @@ jobs:
           path: __screenshots__
       - name: Workaround for detached HEAD
         run: |
-          git checkout ${{ github.head_ref }} || git checkout -b ${{ github.head_ref }} && git pull
+          git checkout ${GITHUB_REF#refs/heads/} || git checkout -b ${GITHUB_REF#refs/heads/} && git pull
       - name: Visual Regression Test
         run: pnpm vrt
