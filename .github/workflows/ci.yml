@@ -18,7 +18,7 @@ jobs:
         run: pnpm build
         shell: sh
       - name: Run storybook build
-        run: pnpm build-storybook
+        run: pnpm build:storybook
         shell: sh
   format-test:
     runs-on: ubuntu-latest
