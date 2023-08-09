@@ -95,5 +95,8 @@ jobs:
         with:
           name: capture-artifact
           path: __screenshots__
+      - name: Workaround for detached HEAD
+        run: |
+          git checkout ${GITHUB_REF#refs/heads/} || git checkout -b ${GITHUB_REF#refs/heads/} && git pull
       - name: Visual Regression Test
         run: pnpm vrt
