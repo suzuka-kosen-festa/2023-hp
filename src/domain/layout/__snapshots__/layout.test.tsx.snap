@@ -5,10 +5,8 @@ exports[`[domain/layout] layout.tsx > should render the Footer component 1`] = `
   <div
     class="styles_div__37tcib0"
   >
-    <img
-      alt="defect"
-      class="styles_defect__37tcib1"
-      src="/src/assets/icons/defect.svg"
+    <span
+      class="styles_icon__1jklp5o0 styles__1jklp5o1 styles_iconType_type_defect__1jklp5o2"
     />
     <main
       class="styles_main__37tcib2"
