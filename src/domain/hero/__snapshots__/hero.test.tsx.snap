@@ -10,7 +10,7 @@ exports[`[domain/hero] hero.tsx > should render the default Hero component 1`] =
     >
       <img
         alt="cloud assets"
-        class=" styles_cloud_gridArea_1__q0lepz4"
+        class="styles__q0lepz4 styles_cloud_gridArea_1__q0lepz5"
         src="/src/assets/icons/cloud-1.svg"
       />
     </div>
@@ -19,7 +19,7 @@ exports[`[domain/hero] hero.tsx > should render the default Hero component 1`] =
     >
       <img
         alt="未視感"
-        class="styles_logo__q0lepz9"
+        class="styles_logo__q0lepza"
         src="/src/assets/icons/logo-static.svg"
       />
     </div>
@@ -28,12 +28,12 @@ exports[`[domain/hero] hero.tsx > should render the default Hero component 1`] =
     >
       <img
         alt="cloud assets"
-        class=" styles_cloud_gridArea_2__q0lepz5"
+        class="styles__q0lepz4 styles_cloud_gridArea_2__q0lepz6"
         src="/src/assets/icons/cloud-2.svg"
       />
       <img
         alt="cloud assets"
-        class=" styles_cloud_gridArea_3__q0lepz6"
+        class="styles__q0lepz4 styles_cloud_gridArea_3__q0lepz7"
         src="/src/assets/icons/cloud-3.svg"
       />
     </div>
@@ -51,12 +51,12 @@ exports[`[domain/hero] hero.tsx > should render the soon Hero component 1`] = `
     >
       <img
         alt="cloud assets"
-        class=" styles_cloud_gridArea_1__q0lepz4"
+        class="styles__q0lepz4 styles_cloud_gridArea_1__q0lepz5"
         src="/src/assets/icons/cloud-1.svg"
       />
       <img
         alt="cloud assets"
-        class=" styles_cloud_gridArea_4__q0lepz7"
+        class="styles__q0lepz4 styles_cloud_gridArea_4__q0lepz8"
         src="/src/assets/icons/cloud-4.svg"
       />
     </div>
@@ -65,11 +65,11 @@ exports[`[domain/hero] hero.tsx > should render the soon Hero component 1`] = `
     >
       <img
         alt="未視感"
-        class="styles_logo__q0lepz9"
+        class="styles_logo__q0lepza"
         src="/src/assets/icons/logo-static.svg"
       />
       <h1
-        class="styles_title__q0lepza"
+        class="styles_title__q0lepzb"
       >
         視たことのない高専祭を。
         <br />
@@ -83,17 +83,17 @@ exports[`[domain/hero] hero.tsx > should render the soon Hero component 1`] = `
     >
       <img
         alt="cloud assets"
-        class=" styles_cloud_gridArea_2__q0lepz5"
+        class="styles__q0lepz4 styles_cloud_gridArea_2__q0lepz6"
         src="/src/assets/icons/cloud-2.svg"
       />
       <img
         alt="cloud assets"
-        class=" styles_cloud_gridArea_3__q0lepz6"
+        class="styles__q0lepz4 styles_cloud_gridArea_3__q0lepz7"
         src="/src/assets/icons/cloud-3.svg"
       />
       <img
         alt="cloud assets"
-        class=" styles_cloud_gridArea_5__q0lepz8"
+        class="styles__q0lepz4 styles_cloud_gridArea_5__q0lepz9"
         src="/src/assets/icons/cloud-5.svg"
       />
     </div>
