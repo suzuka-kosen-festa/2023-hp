@@ -1,0 +1,57 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`[shared/ui/icon] icon.tsx > should render the cloud1 component 1`] = `
+<div>
+  <span
+    class="styles_icon__1jklp5o0 styles__1jklp5o1 styles_iconType_type_cloud1__1jklp5o3"
+  />
+</div>
+`;
+
+exports[`[shared/ui/icon] icon.tsx > should render the cloud2 component 1`] = `
+<div>
+  <span
+    class="styles_icon__1jklp5o0 styles__1jklp5o1 styles_iconType_type_cloud2__1jklp5o4"
+  />
+</div>
+`;
+
+exports[`[shared/ui/icon] icon.tsx > should render the cloud3 component 1`] = `
+<div>
+  <span
+    class="styles_icon__1jklp5o0 styles__1jklp5o1 styles_iconType_type_cloud3__1jklp5o5"
+  />
+</div>
+`;
+
+exports[`[shared/ui/icon] icon.tsx > should render the cloud4 component 1`] = `
+<div>
+  <span
+    class="styles_icon__1jklp5o0 styles__1jklp5o1 styles_iconType_type_cloud4__1jklp5o6"
+  />
+</div>
+`;
+
+exports[`[shared/ui/icon] icon.tsx > should render the cloud5 component 1`] = `
+<div>
+  <span
+    class="styles_icon__1jklp5o0 styles__1jklp5o1 styles_iconType_type_cloud5__1jklp5o7"
+  />
+</div>
+`;
+
+exports[`[shared/ui/icon] icon.tsx > should render the defect component 1`] = `
+<div>
+  <span
+    class="styles_icon__1jklp5o0 styles__1jklp5o1 styles_iconType_type_defect__1jklp5o2"
+  />
+</div>
+`;
+
+exports[`[shared/ui/icon] icon.tsx > should render the logoStatic component 1`] = `
+<div>
+  <span
+    class="styles_icon__1jklp5o0 styles__1jklp5o1 styles_iconType_type_logoStatic__1jklp5o8"
+  />
+</div>
+`;
