@@ -74,8 +74,8 @@ devDependencies:
     specifier: 1.12.0
     version: 1.12.0
   '@vanilla-extract/recipes':
-    specifier: 0.4.0
-    version: 0.4.0(@vanilla-extract/css@1.12.0)
+    specifier: 0.5.0
+    version: 0.5.0(@vanilla-extract/css@1.12.0)
   '@vanilla-extract/vite-plugin':
     specifier: 3.8.2
     version: 3.8.2(@types/node@18.17.4)(terser@5.19.2)(ts-node@10.9.1)(vite@4.4.9)
@@ -5446,8 +5446,8 @@ packages:
     resolution: {integrity: sha512-17kVyLq3ePTKOkveHxXuIJZtGYs+cSoev7BlP+Lf4916qfDhk/HBjvlYDe8egrea7LNPHKwSZJK/bzZC+Q6AwQ==}
     dev: true
 
-  /@vanilla-extract/recipes@0.4.0(@vanilla-extract/css@1.12.0):
-    resolution: {integrity: sha512-gFgB7BofUYbtbxINHK6DhMv1JDFDXp/YI/Xm+cqKar+1I/2dfxPepeDxSexL6YB4ftfeaDw8Kn5zydMvHcGOEQ==}
+  /@vanilla-extract/recipes@0.5.0(@vanilla-extract/css@1.12.0):
+    resolution: {integrity: sha512-NfdZ8XyqCDG2RsO3FmYPALDMKg5045dRD97NbBb0Fog3LMDVXZxYgDOct5FAWob8U6W4GbhVpRZt1X9hNnH6fA==}
     peerDependencies:
       '@vanilla-extract/css': ^1.0.0
     dependencies:
@@ -7767,6 +7767,7 @@ packages:
 
   /eslint-config-prettier@9.0.0(eslint@8.46.0):
     resolution: {integrity: sha512-IcJsTkJae2S35pRsRAwoCE+925rJJStOdkKnLVgtE+tEpqU0EVVM7OqrwxqgptKdX29NUwC82I5pXsGFIgSevw==}
+    hasBin: true
     peerDependencies:
       eslint: '>=7.0.0'
     dependencies:
@@ -10070,6 +10071,7 @@ packages:
 
   /jscodeshift@0.14.0(@babel/preset-env@7.22.9):
     resolution: {integrity: sha512-7eCC1knD7bLUPuSCwXsMZUH51O8jIcoVyKtI6P0XM0IVzlGjckPy3FIwQlorzbN0Sg79oK+RlohN32Mqf/lrYA==}
+    hasBin: true
     peerDependencies:
       '@babel/preset-env': ^7.1.6
     dependencies:
@@ -12694,6 +12696,7 @@ packages:
   /rollup-plugin-visualizer@5.9.2(rollup@2.79.1):
     resolution: {integrity: sha512-waHktD5mlWrYFrhOLbti4YgQCn1uR24nYsNuXxg7LkPH8KdTXVWR9DNY1WU0QqokyMixVXJS4J04HNrVTMP01A==}
     engines: {node: '>=14'}
+    hasBin: true
     peerDependencies:
       rollup: 2.x || 3.x
     peerDependenciesMeta:
@@ -13800,6 +13803,7 @@ packages:
 
   /ts-node@10.9.1(@types/node@18.17.4)(typescript@5.1.6):
     resolution: {integrity: sha512-NtVysVPkxxrwFGUUxGYhfux8k78pQB3JqYBXlLRZgdGUqTO5wU/UyHop5p70iEbGhB7q5KmiZiU0Y3KlJrScEw==}
+    hasBin: true
     peerDependencies:
       '@swc/core': '>=1.2.50'
       '@swc/wasm': '>=1.2.50'
@@ -13831,6 +13835,7 @@ packages:
   /tsconfck@2.1.1(typescript@5.1.6):
     resolution: {integrity: sha512-ZPCkJBKASZBmBUNqGHmRhdhM8pJYDdOXp4nRgj/O0JwUwsMq50lCDRQP/M5GBNAA0elPrq4gAeu4dkaVCuKWww==}
     engines: {node: ^14.13.1 || ^16 || >=18}
+    hasBin: true
     peerDependencies:
       typescript: ^4.3.5 || ^5.0.0
     peerDependenciesMeta:
@@ -14115,6 +14120,7 @@ packages:
 
   /update-browserslist-db@1.0.11(browserslist@4.21.9):
     resolution: {integrity: sha512-dCwEFf0/oT85M1fHBg4F0jtLwJrutGoHSQXCh7u4o2t1drG+c0a9Flnqww6XUKSfQMPpJBRjU8d4RXB09qtvaA==}
+    hasBin: true
     peerDependencies:
       browserslist: '>= 4.21.0'
     dependencies:
@@ -14341,6 +14347,7 @@ packages:
   /vite-plugin-ssr@0.4.135(react-streaming@0.3.14)(vite@4.4.9):
     resolution: {integrity: sha512-JQG0WX25EnAPDW/dtVjRntubP32FNV1V3Z18cNCW/PNKPlTffqYlFoQ/AMlbeU/zrgNCJehG0pO32bq3R1Xvmg==}
     engines: {node: '>=16.0.0'}
+    hasBin: true
     peerDependencies:
       react-streaming: '>=0.3.5'
       vite: '>=3.1.0'
@@ -14383,6 +14390,7 @@ packages:
   /vite@4.4.9(@types/node@18.17.4)(terser@5.19.2):
     resolution: {integrity: sha512-2mbUn2LlUmNASWwSCNSJ/EG2HuSRTnVNaydp6vMCm5VIqJsjMfbIWtbH2kDuwUVW5mMUKKZvGPX/rqeqVvv1XA==}
     engines: {node: ^14.18.0 || >=16.0.0}
+    hasBin: true
     peerDependencies:
       '@types/node': '>= 14'
       less: '*'
@@ -14419,6 +14427,7 @@ packages:
   /vitest@0.34.1(@vitest/ui@0.34.1)(happy-dom@10.9.0)(terser@5.19.2):
     resolution: {integrity: sha512-G1PzuBEq9A75XSU88yO5G4vPT20UovbC/2osB2KEuV/FisSIIsw7m5y2xMdB7RsAGHAfg2lPmp2qKr3KWliVlQ==}
     engines: {node: '>=v14.18.0'}
+    hasBin: true
     peerDependencies:
       '@edge-runtime/vm': '*'
       '@vitest/browser': '*'
