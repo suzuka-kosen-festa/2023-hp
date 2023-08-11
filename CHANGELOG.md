@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.2.0](https://github.com/suzuka-kosen-festa/2023-hp/compare/1.1.0...1.2.0) (2023-08-11)
+
+
+### Features
+
+* implement icon component ([#242](https://github.com/suzuka-kosen-festa/2023-hp/issues/242)) ([0737412](https://github.com/suzuka-kosen-festa/2023-hp/commit/07374124cf68395af2acde5f47f43f198c66a060))
+
+
+### Bug Fixes
+
+* broken import from rollup-plugin-visualizer ([#224](https://github.com/suzuka-kosen-festa/2023-hp/issues/224)) ([b3646aa](https://github.com/suzuka-kosen-festa/2023-hp/commit/b3646aa3ca94bfd356425d6089e51fe306cc58e7))
+
 ## [1.1.0](https://github.com/suzuka-kosen-festa/2023-hp/compare/1.0.3...1.1.0) (2023-06-27)
 
 
