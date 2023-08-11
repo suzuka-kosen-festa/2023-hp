@@ -60,6 +60,8 @@ jobs:
           path: storybook-static
       - name: Install Chrome with puppeteer
         run: node node_modules/puppeteer/install.js #FIXME: This is an escape hatch
+      - name: Install native dependencies
+        run: sudo apt-get install fonts-ipafont-gothic
       - name: Capture
         run: pnpm capture -- -shard=${{ matrix.shard }}
       - name: Upload capture artifact
