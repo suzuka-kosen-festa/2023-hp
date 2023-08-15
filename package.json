@@ -45,7 +45,7 @@
     "@markuplint/react-spec": "3.10.0",
     "@re-taro/eslint-config": "1.10.0",
     "@storybook/addon-a11y": "7.3.0",
-    "@storybook/addon-essentials": "7.2.3",
+    "@storybook/addon-essentials": "7.3.0",
     "@storybook/addon-interactions": "7.2.3",
     "@storybook/addon-links": "7.2.3",
     "@storybook/blocks": "7.2.3",
