@@ -87,7 +87,7 @@
     "vite": "4.4.9",
     "vite-plugin-compression": "0.5.1",
     "vite-plugin-pwa": "0.16.4",
-    "vite-plugin-ssr": "0.4.135",
+    "vite-plugin-ssr": "0.4.136",
     "vite-tsconfig-paths": "4.2.0",
     "vitest": "0.34.1",
     "wrangler": "3.5.0"

@@ -161,8 +161,8 @@ devDependencies:
     specifier: 0.16.4
     version: 0.16.4(vite@4.4.9)(workbox-build@7.0.0)(workbox-window@7.0.0)
   vite-plugin-ssr:
-    specifier: 0.4.135
-    version: 0.4.135(react-streaming@0.3.14)(vite@4.4.9)
+    specifier: 0.4.136
+    version: 0.4.136(react-streaming@0.3.14)(vite@4.4.9)
   vite-tsconfig-paths:
     specifier: 4.2.0
     version: 4.2.0(typescript@5.1.6)(vite@4.4.9)
@@ -1575,6 +1575,10 @@ packages:
 
   /@brillout/picocolors@1.0.6:
     resolution: {integrity: sha512-Ln5rMxhWyGaQxZu6LTbA7izEI7xytbvK9QFwuH3Rj61rAPArLeKYMUmNa3f8COHl3++iBs98gTu9Slmyvnst2Q==}
+    dev: true
+
+  /@brillout/require-shim@0.1.2:
+    resolution: {integrity: sha512-3I4LRHnVZXoSAsEoni5mosq9l6eiJED58d9V954W4CIZ88AUfYBanWGBGbJG3NztaRTpFHEA6wB3Hn93BmmJdg==}
     dev: true
 
   /@brillout/vite-plugin-import-build@0.2.18:
@@ -3018,7 +3022,7 @@ packages:
     engines: {node: ^12.20.0 || ^14.18.0 || >=16.0.0}
     dependencies:
       cross-spawn: 7.0.3
-      fast-glob: 3.3.0
+      fast-glob: 3.3.1
       is-glob: 4.0.3
       open: 9.1.0
       picocolors: 1.0.0
@@ -5640,6 +5644,7 @@ packages:
   /acorn@8.9.0:
     resolution: {integrity: sha512-jaVNAFBHNLXspO543WnNNPZFRtavh3skAkITqD0/2aeMkKZTN+254PyhwxFYrk3vQ1xfY+2wbesJMs/JC8/PwQ==}
     engines: {node: '>=0.4.0'}
+    hasBin: true
     dev: true
 
   /address@1.2.2:
@@ -7670,6 +7675,7 @@ packages:
   /esbuild@0.17.19:
     resolution: {integrity: sha512-XQ0jAPFkK/u3LcVRcvVHQcTIqD6E2H1fvZMA5dQPSOWb3suUbWbfbRf94pjc0bNzRYLfIrDRQXr7X+LHIm5oHw==}
     engines: {node: '>=12'}
+    hasBin: true
     requiresBuild: true
     optionalDependencies:
       '@esbuild/android-arm': 0.17.19
@@ -9117,7 +9123,7 @@ packages:
     dependencies:
       array-union: 2.1.0
       dir-glob: 3.0.1
-      fast-glob: 3.3.0
+      fast-glob: 3.3.1
       ignore: 5.2.4
       merge2: 1.4.1
       slash: 3.0.0
@@ -14402,8 +14408,8 @@ packages:
       - supports-color
     dev: true
 
-  /vite-plugin-ssr@0.4.135(react-streaming@0.3.14)(vite@4.4.9):
-    resolution: {integrity: sha512-JQG0WX25EnAPDW/dtVjRntubP32FNV1V3Z18cNCW/PNKPlTffqYlFoQ/AMlbeU/zrgNCJehG0pO32bq3R1Xvmg==}
+  /vite-plugin-ssr@0.4.136(react-streaming@0.3.14)(vite@4.4.9):
+    resolution: {integrity: sha512-2a9huIue8AkoE2SUccVpo+9uQoEYFGdnObtRgGMyOZWaBw8mQ7jxn0k4lE66ScsfasF4B4F3UWC37sLfEneP8w==}
     engines: {node: '>=16.0.0'}
     hasBin: true
     peerDependencies:
@@ -14416,12 +14422,13 @@ packages:
       '@brillout/import': 0.2.3
       '@brillout/json-serializer': 0.5.4
       '@brillout/picocolors': 1.0.6
+      '@brillout/require-shim': 0.1.2
       '@brillout/vite-plugin-import-build': 0.2.18
       acorn: 8.9.0
       cac: 6.7.14
       es-module-lexer: 0.10.5
       esbuild: 0.17.19
-      fast-glob: 3.3.0
+      fast-glob: 3.3.1
       react-streaming: 0.3.14(react-dom@18.2.0)(react@18.2.0)
       sirv: 2.0.3
       source-map-support: 0.5.21
