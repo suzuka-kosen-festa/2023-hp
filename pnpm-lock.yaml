@@ -95,8 +95,8 @@ devDependencies:
     specifier: 8.47.0
     version: 8.47.0
   eslint-plugin-storybook:
-    specifier: 0.6.13
-    version: 0.6.13(eslint@8.47.0)(typescript@5.1.6)
+    specifier: 0.6.15
+    version: 0.6.15(eslint@8.47.0)(typescript@5.1.6)
   happy-dom:
     specifier: 10.9.0
     version: 10.9.0
@@ -107,8 +107,8 @@ devDependencies:
     specifier: 4.1.5
     version: 4.1.5
   prettier:
-    specifier: 3.0.2
-    version: 3.0.2
+    specifier: 3.0.3
+    version: 3.0.3
   prop-types:
     specifier: 15.8.1
     version: 15.8.1
@@ -5891,7 +5891,7 @@ packages:
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dependencies:
       '@typescript-eslint/types': 5.61.0
-      eslint-visitor-keys: 3.4.2
+      eslint-visitor-keys: 3.4.3
     dev: true
 
   /@typescript-eslint/visitor-keys@6.4.1:
@@ -8522,8 +8522,8 @@ packages:
       recheck: 4.5.0-beta.4
     dev: true
 
-  /eslint-plugin-storybook@0.6.13(eslint@8.47.0)(typescript@5.1.6):
-    resolution: {integrity: sha512-smd+CS0WH1jBqUEJ3znGS7DU4ayBE9z6lkQAK2yrSUv1+rq8BT/tiI5C/rKE7rmiqiAfojtNYZRhzo5HrulccQ==}
+  /eslint-plugin-storybook@0.6.15(eslint@8.47.0)(typescript@5.1.6):
+    resolution: {integrity: sha512-lAGqVAJGob47Griu29KXYowI4G7KwMoJDOkEip8ujikuDLxU+oWJ1l0WL6F2oDO4QiyUFXvtDkEkISMOPzo+7w==}
     engines: {node: 12.x || 14.x || >= 16}
     peerDependencies:
       eslint: '>=6'
@@ -8619,11 +8619,6 @@ packages:
     dependencies:
       esrecurse: 4.3.0
       estraverse: 5.3.0
-    dev: true
-
-  /eslint-visitor-keys@3.4.2:
-    resolution: {integrity: sha512-8drBzUEyZ2llkpCA67iYrgEssKDUu68V8ChqqOfFupIaG/LCVPUT+CoGJpT77zJprs4T/W7p07LP7zAIMuweVw==}
-    engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dev: true
 
   /eslint-visitor-keys@3.4.3:
@@ -12247,8 +12242,8 @@ packages:
     hasBin: true
     dev: true
 
-  /prettier@3.0.2:
-    resolution: {integrity: sha512-o2YR9qtniXvwEZlOKbveKfDQVyqxbEIWn48Z8m3ZJjBjcCmUy3xZGIv+7AkaeuaTr6yPXJjwv07ZWlsWbEy1rQ==}
+  /prettier@3.0.3:
+    resolution: {integrity: sha512-L/4pUDMxcNa8R/EthV08Zt42WBO4h1rarVtK0K+QJG0X187OLo7l699jWw0GKuwzkPQ//jMFA/8Xm6Fh3J/DAg==}
     engines: {node: '>=14'}
     hasBin: true
     dev: true
